@@ -24,6 +24,8 @@ The description of the blade is "It's one of the few things your momma ever gave
 
 The player is female.
 
+The child is part of the player. Understand "baby" and "daughter" and "foetus" and "fetus" as the child. The description of the child is "It's a girl, according to the doctor who discussed the 20-week echo with you. When he heard that, Jack tried to force you to have an abortion.".
+
 Instead of eating the short blade: say "Only the men in Jack's gang were expected to practice sword swallowing."
 
 Instead of examining the player: say "You are twenty-four, obviously pregnant, and marked by a weird brand on your left shoulder."
