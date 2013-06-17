@@ -10,3 +10,5 @@ Perilous Perch is northeast of Rocky Ledge.
 
 Instead of going up while in Rocky Ledge:
 	try going northeast
+
+An incomplete brand is part of the player. "Craning your neck, you look down to see the edges of the brand, bleeding but flawed, mercifully incomplete."
