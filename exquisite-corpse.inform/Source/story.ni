@@ -8,6 +8,8 @@ Instead of jumping in Rocky Ledge: say "While death [italic type]may[roman type]
 
 Perilous Perch is northeast of Rocky Ledge.
 
+The description of Perilous Perch is "From here, you can see the entire harbor, but the wind is so treacherous that your concentration is mainly spent on staying afoot.  The only path leads down to the southwest but a small crack can be seen in the rock face behind you."
+
 Instead of going up while in Rocky Ledge:
 	try going northeast
 
