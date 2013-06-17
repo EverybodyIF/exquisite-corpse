@@ -11,4 +11,10 @@ Perilous Perch is northeast of Rocky Ledge.
 Instead of going up while in Rocky Ledge:
 	try going northeast
 
+Instead of going down in Rocky Ledge: try jumping.
+	
 An incomplete brand is part of the player. "Craning your neck, you look down to see the edges of the brand, bleeding but flawed, mercifully incomplete."
+
+Instead of examining the player: say "You are twenty-four, obviously pregnant, and marked by a weird brand on your left shoulder."
+
+Instead of singing: say "When all this is over, you'll sing, sing like a bird that is no longer caged. But not yet."
