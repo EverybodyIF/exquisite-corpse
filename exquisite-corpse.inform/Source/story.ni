@@ -19,6 +19,8 @@ Understand "weird" as the brand.
 
 The player carries a short blade.
 
+Instead of eating the short blade: say "Only the men in Jack's gang were expected to practice sword swallowing."
+
 Instead of examining the player: say "You are twenty-four, obviously pregnant, and marked by a weird brand on your left shoulder."
 
 Instead of singing: say "When all this is over, you'll sing, sing like a bird that is no longer caged. But not yet."
