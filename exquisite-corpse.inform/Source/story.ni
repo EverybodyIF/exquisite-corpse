@@ -17,6 +17,8 @@ An incomplete brand is part of the player. "Craning your neck, you look down to 
 
 Understand "weird" as the brand.
 
+The player carries a short blade.
+
 Instead of examining the player: say "You are twenty-four, obviously pregnant, and marked by a weird brand on your left shoulder."
 
 Instead of singing: say "When all this is over, you'll sing, sing like a bird that is no longer caged. But not yet."
