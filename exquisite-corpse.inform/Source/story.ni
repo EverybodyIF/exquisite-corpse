@@ -19,6 +19,8 @@ Understand "weird" as the brand.
 
 The player carries a short blade.
 
+The player is female.
+
 Instead of eating the short blade: say "Only the men in Jack's gang were expected to practice sword swallowing."
 
 Instead of examining the player: say "You are twenty-four, obviously pregnant, and marked by a weird brand on your left shoulder."
@@ -26,3 +28,5 @@ Instead of examining the player: say "You are twenty-four, obviously pregnant, a
 Instead of singing: say "When all this is over, you'll sing, sing like a bird that is no longer caged. But not yet."
 
 The beacon is a backdrop. The description is "Far to the west, sunset gilds the metal spine of the pharos." It is in the Perilous Perch and the Rocky Ledge. Understand "pharos" or "lighthouse" as the beacon.
+
+Overture is a scene. Overture begins when play begins.
