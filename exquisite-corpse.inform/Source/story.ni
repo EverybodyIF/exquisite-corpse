@@ -20,6 +20,7 @@ An incomplete brand is part of the player. "Craning your neck, you look down to 
 Understand "weird" as the brand.
 
 The player carries a short blade.
+The description of the blade is "It's one of the few things your momma ever gave you."
 
 The player is female.
 
