@@ -2,6 +2,14 @@
 
 Overture is a scene. Overture begins when play begins.
 
+Memscribing is an action applying to one thing. Understand "memscribe [something]" as memscribing.
+
+Definition: something is susceptible: if it is a person, yes.
+
+Instead of memscribing the child, say "Far too dangerous to consider with any infant, let alone your own blood." 
+Instead of memscribing yourself, say "Memscribing yourself? You wouldn't even know where to begin."
+Instead of memscribing something not susceptible, say "[The noun] can't be worked by memscription."
+
 Instead of singing: say "When all this is over, you'll sing, sing like a bird that is no longer caged. But not yet."
 
 The player is female.
