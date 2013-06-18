@@ -2,6 +2,8 @@
 
 Overture is a scene. Overture begins when play begins.
 
+After waiting during Overture: say "[one of]You fidget as you wait[or]Time passes in silence[or]You glance uneasily about as the seconds creep by[or]You wait, restless[at random]."
+
 Memscribing is an action applying to one thing. Understand "memscribe [something]" as memscribing.
 
 Definition: something is susceptible: if it is a person, yes.
@@ -25,7 +27,7 @@ Instead of eating the short blade: say "Only the men in Jack's gang were expecte
 
 [backdrops]
 
-The beacon is a backdrop. The description is "Far to the west, sunset gilds the metal spine of the pharos." It is in the Perilous Perch and the Rocky Ledge. Understand "pharos" or "lighthouse" as the beacon.
+The beacon is a backdrop. The description is "Far to the west, sunset gilds the metal spine of the pharos." It is in the Perilous Perch and the Rocky Ledge. Understand "tower/pharos/lighthouse" or "great tower/pharos/lighthouse" as the beacon.
 
 The harbor is a backdrop. The description of the harbor is "Piers and warehouses and dormitories without number, all smeared together by the soot belching from the smokestacks. Low-slung watercraft -- ferries and sleds mostly -- flit like ants between the piers and the far-off reef moorings, out where the deepwater haulers wait. Landward, the curtain wall rises tall, its short stubby turrets menacing the sky. The great tower of the pharos overlooks them all."  It is in the Perilous Perch and the Rocky Ledge. Understand "harbour" or "city" as the harbor.
 
