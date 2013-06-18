@@ -26,6 +26,7 @@ An incomplete brand is part of the player. "Craning your neck, you look down to 
 
 The player carries a short blade. The description of the blade is "It's one of the few things your momma ever gave you."
 Instead of eating the short blade: say "Only the men in Jack's gang were expected to practice sword swallowing."
+Understand "sword/weapon" as the blade.
 
 Section - Summoning
 
@@ -89,25 +90,35 @@ Instead of going down in Rocky Ledge:
 	
 Section - Perilous Perch
 
-Perilous Perch is northeast of Rocky Ledge. "From here, you can see the entire harbor, but the wind is so treacherous that your concentration is mainly spent on staying afoot.  The only path leads down to the southwest but a small crack can be seen in the rock face behind you."
+The Perilous Perch is northeast of Rocky Ledge. "From here, you can see the entire harbor, but the wind is so treacherous that your concentration is mainly spent on staying afoot. The [if the passage is open]only path[otherwise]path you came by[end if] leads down to the southwest but [if the passage is open]now a tunnel yawns[otherwise]a small crack can be seen[end if] in the rock face behind you."
+
+The hidden passage is a scenery door. It is unopenable and closed. The printed name of the passage is "[if the passage is open]passage[otherwise]crack[end if]". 
+The description of the hidden passage is "[if the passage is closed]The crack is narrow in the otherwise dust-covered rock[otherwise]The darkness in this passage is compact[end if]."
+
+The hidden passage is east of the Perilous Perch and west of the Cave Entrance. Understand "crack/crevice/opening/hole" as the passage when the passage is closed. Understand "tunnel" as the passage.
+
+Instead of trying inserting something into a closed passage, say "The crack is too narrow to accommodate it."
+Instead of trying inserting the blade into a closed passage:
+  say "With a shower of dirt you work your mother's blade into the crack. The crack's edges seem more yielding than rock should be, and the blade suddenly slips into open space. Could it be?[paragraph break]Within a couple of minutes you have cleared away the vines and dirt surrounding the crack to reveal a narrow dark passage to the east.";
+   now the passage is open.
+Instead trying opening a closed passage: say "You press yourself against the crack, but it is far too small for you to enter."
+
+This is the silenced can't go through undescribed doors rule:
+	if the door gone through is the passage and the passage is closed:
+		silently try the actor opening the passage;
+		stop the action;
+	otherwise:
+		abide by the can't go through undescribed doors rule.
+
+The silenced can't go through undescribed doors rule is listed instead of the can't go through undescribed doors rule in the check going rules.
 
 The kataphraktos is a person. The description is "Squat and sightless, the kataphraktos does not move beyond the slow, rippling clicks of its scales. You still feel its attention on you, passionless and focused." The kataphraktos carries a glaive and a mandate. Understand "cataphract" or "guard" as the kataphraktos.
 
-Section - Cave Entrance 
-
-Cave Entrance is east of Perilous Perch.
-
-The passage is scenery. [description needed]
-The crack is scenery in Perilous Perch. [someone else write the description, please!] The crack is a container.
-Instead of inserting something into the crack: say "The crack is too narrow to accommodate it."
-Instead of inserting the blade into the crack:
-  say "With a shower of dirt you work your mother's blade into the crack. The crack's edges seem more yielding than rock should be, and the blade suddenly slips into open space. Could it be?[line break]Within a couple of minutes you have cleared away the vines and dirt surrounding the crack to reveal a narrow dark passage to the east.";
-   remove the crack from play;
-   now the passage is in Perilous Perch.
-
-Instead of going east in Perilous Perch when the crack is in Perilous Perch: say "You press yourself against the crack, but it is far too small for you to enter."
 Instead of entering the passage: try going east.
 Instead of going inside in Perilous Perch: try going east.
+
+Section - Cave Entrance 
+
 
 The Obsidian Cat is in the Cave Entrance.  "Standing about four inches tall, this small statue has eyes made from polished garnet."
 
