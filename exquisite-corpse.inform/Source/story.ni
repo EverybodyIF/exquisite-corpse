@@ -77,6 +77,13 @@ Instead of going east in Perilous Perch when the crack is in Perilous Perch: say
 Instead of entering the passage: try going east.
 Instead of going inside in Perilous Perch: try going east.
 
+The Obsidian Cat is in the Cave Entrance.  "Standing about four inches tall, this small statue has eyes made from polished garnet."
+
+Every turn:
+	If the player carries the Obsidian Cat:
+		now the location of the player is lit;
+		say "Your brand seems to be giving off an eerie sort of light.";
+		continue the action.
 
 
 
