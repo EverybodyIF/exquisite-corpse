@@ -119,14 +119,30 @@ Instead of going inside in Perilous Perch: try going east.
 
 Section - Cave Entrance 
 
+The Cave Entrance is a room. "A narrow opening choked by fallen masonry and choking vines. The remnants of a wagon wheel rises from the dirt; the wood is dark with rot. To the northeast, where the cliff wall breaks surface, is a dark slash of an opening into the rock."
 
-The Obsidian Cat is in the Cave Entrance.  "Standing about four inches tall, this small statue has eyes made from polished garnet."
+The wagon wheel is here. It is scenery.
 
-Every turn:
-	If the player carries the Obsidian Cat:
-		now the location of the player is lit;
-		say "Your brand seems to be giving off an eerie sort of light.";
-		continue the action.
+The Obsidian Cat is in the Cave Entrance. "A small item lies in the dust." The description is "[if the cat is handled]Standing about four inches tall, this small statue has eyes made from polished garnet[otherwise]The dust is so thick over it that you can hardly see[end if]." Understand "small" or "item/thing" as the obsidian cat when the cat is not handled. Understand "statue/figurine/garnet" as the cat.
+
+After taking the obsidian cat: 
+   now the brand is lit;
+   say "[one of]You carefully lift the thing and brush it off. It's a small statue, intricately carved in vitreous stone.[paragraph break]You feel your shoulder beginning to itch[or]You pick up the statue again. Once more, there's the itching[or]You take the statue, feeling the expected itch[stopping]."
+
+After dropping or inserting when the noun is the obsidian cat: 
+   say "The instant the figurine leaves your touch, the glow from your brand fades away and the itching stops.";
+   now the brand is not lit.
+
+Every turn when the brand is lit and the location is naturally dark:
+      say "Your brand seems to be giving off an eerie sort of light."
+
+   
+Section - Lightless Shaft
+
+A room can be naturally dark.
+
+The Lightless Shaft is northeast of the Cave Entrance. It is naturally dark.
+Instead of going northeast from the Cave Entrance when the brand is not lit, say "Much too dark in there for you to grope about without a torch or lumin or something."
 
 
 Section - Sgt Duffy NPC
