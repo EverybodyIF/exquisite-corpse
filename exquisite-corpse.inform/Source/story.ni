@@ -59,6 +59,21 @@ Perilous Perch is northeast of Rocky Ledge. "From here, you can see the entire h
 
 The kataphraktos is a person. The description is "Squat and sightless, the kataphraktos does not move beyond the slow, rippling clicks of its scales. You still feel its attention on you, passionless and focused." The kataphraktos carries a glaive and a mandate. Understand "cataphract" or "guard" as the kataphraktos.
 
+Section - Cave Entrance 
+
+Cave Entrance is east of Perilous Perch.
+
+The passage is scenery. [description needed]
+The crack is scenery in Perilous Perch. [someone else write the description, please!] The crack is a container.
+Instead of inserting something into the crack: say "The crack is too narrow to accommodate it."
+Instead of inserting the blade into the crack:
+  say "With a shower of dirt you work your mother's blade into the crack. The crack's edges seem more yielding than rock should be, and the blade suddenly slips into open space. Could it be?[line break]Within a couple of minutes you have cleared away the vines and dirt surrounding the crack to reveal a narrow dark passage to the east.";
+   remove the crack from play;
+   now the passage is in Perilous Perch.
+
+Instead of going east in Perilous Perch when the crack is in Perilous Perch: say "You press yourself against the crack, but it is far too small for you to enter."
+Instead of entering the passage: try going east.
+
 
 
 
