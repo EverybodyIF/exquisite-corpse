@@ -73,6 +73,7 @@ Instead of inserting the blade into the crack:
 
 Instead of going east in Perilous Perch when the crack is in Perilous Perch: say "You press yourself against the crack, but it is far too small for you to enter."
 Instead of entering the passage: try going east.
+Instead of going inside in Perilous Perch: try going east.
 
 
 
