@@ -12,6 +12,8 @@ Instead of memscribing the child, say "Far too dangerous to consider with any in
 Instead of memscribing yourself, say "Memscribing yourself? You wouldn't even know where to begin."
 Instead of memscribing something not susceptible, say "[The noun] can't be worked by memscription."
 
+A person can be neutral, friendly or angry.  A person is usually neutral.
+
 Instead of singing: say "When all this is over, you'll sing, sing like a bird that is no longer caged. But not yet."
 
 The player is female. 
@@ -24,6 +26,36 @@ An incomplete brand is part of the player. "Craning your neck, you look down to 
 
 The player carries a short blade. The description of the blade is "It's one of the few things your momma ever gave you."
 Instead of eating the short blade: say "Only the men in Jack's gang were expected to practice sword swallowing."
+
+Section - Summoning
+
+[ A character can be summoned with SUMMON Sgt Duffy ]
+[ Additional logic could be added to deal with other NPCs, or give them other tasks. ]
+
+[ Note: visible means "in scope", not necessarily in the same room  ]
+Summoning is an action applying to one visible thing. Understand "summon [any thing]" as summoning.
+
+
+First check summoning the player: instead say "You're already here."
+
+Check summoning when the noun is not a person:
+	if noun is visible: 
+		say "You can't summon a thing, only a person.";
+	else:
+		say "That's not something you can see now.";
+   
+   
+[ Add some further logic to summon other characters if necessary ]
+Check summoning when the noun is a person:
+	if noun is Sgt Duffy:
+		if noun is not visible: 
+			move noun to location;
+			say "[noun] steps into the room. [one of]'You called?'[or]'What can I do ya for?'[or]'Here I am.'[or]'All yours.[or]'Yes, sir.'[then at random]";
+		else:
+			say "'Dollar, I'm right here.'";
+	else:
+		[ other code for other NPCs might go here ]
+		say "There's no response."
 
 [backdrops]
 
@@ -84,6 +116,21 @@ Every turn:
 		now the location of the player is lit;
 		say "Your brand seems to be giving off an eerie sort of light.";
 		continue the action.
+
+
+Section - Sgt Duffy NPC
+
+[ Is it ok to add a character?  This is not fully fleshed out, but rather as a starting point so that others might add more interaction with the character, ask/tell etc.  Note that the character starts out off-stage.  I hope others will add to this. ]
+
+Sgt Duffy is a man.  Sgt Duffy has description "Sgt Duffy looks like a cop whose mission in life is to avoid trouble.  He's a couple of pounds over his uniform size and his skin glistens faintly from the humidity.  Or maybe he's just nervous."
+
+Understand "Duff/duf/dufy/diffy/duggy/sargent/seargent/sarge/sergeant", "the seargent", "the sergeant", "Seargent Duffy", "Seargeant Duffy" as Sgt Duffy.
+
+Instead of pushing Sgt Duffy:
+   say "Sgt Duffy easily blocks your move.  [one of]'What in blazes has gotten into you?'[or]'If you try that again, I'm gonna get angry.'[or]He glares at you coldly.[stopping]";
+   now Sgt Duffy is Angry.
+
+Instead of attacking Sgt Duffy, try pushing Sgt Duffy.
 
 
 
