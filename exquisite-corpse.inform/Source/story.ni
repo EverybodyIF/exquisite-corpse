@@ -42,7 +42,8 @@ After looking when the brand is lit and the location is naturally dark:
 
 The player carries a short blade. The description of the blade is "It's one of the few things your momma ever gave you."
 Instead of eating the short blade: say "Only the men in Jack's gang were expected to practice sword swallowing."
-Understand "sword/weapon" as the blade.
+Understand "sword/weapon/knife" as the blade.
+
 
 Section - Summoning
 
