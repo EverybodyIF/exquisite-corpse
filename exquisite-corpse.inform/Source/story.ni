@@ -16,22 +16,13 @@ A person can be neutral, friendly or angry.  A person is usually neutral.
 
 Instead of singing: say "When all this is over, you'll sing, sing like a bird that is no longer caged. But not yet."
 
+section - the player 
+
 The player is female. 
 
-Instead of examining the player: say "You are twenty-four, obviously pregnant, and marked by a weird brand on your left shoulder."
-
-The child is part of the player. Understand "baby" and "daughter" and "foetus" and "fetus" as the child. The description of the child is "It's a girl, according to the doctor who discussed the 20-week echo with you. When he heard that, Jack tried to force you to have an abortion. That will never happen.[paragraph break]You rub your belly and imagine a newborn cradled in your arms. She would be perfect, of course. Beautiful and intelligent.".
-
-The child is a woman.
-
-Understand "girl" and "baby" and "daughter" and "foetus" and "fetus" as the child.
-
-Instead of summoning or dropping the child, say "Its time has not come yet."
-
-Instead of pushing or pulling or taking when the noun is the child, try touching the child.
-After touching the child: say "You lay a hand on your belly[if a random chance of 1 in 6 succeeds].[paragraph break]A kick! You're sure you felt [one of]her[or]another[stopping] kick just now[end if]." Understand "belly/stomach/tummy" as the child while the child is part of the player.
-
 Instead of examining the player: say "You are twenty-four, obviously pregnant, and marked by a weird[if the brand is lit and the location is naturally dark], glowing[end if] brand on your left shoulder."
+
+A shoulder is part of the player. The description is "On your right shoulder is an incomplete brand."
 
 An incomplete brand is part of the player. The description is "Craning your neck, you look down to see the edges of the brand, bleeding but flawed, mercifully incomplete[if the brand is lit and the location is naturally dark]. You wouldn't see it in the dark at all if not for the dull, flickering light emanating through your torn flesh.[end if]."
 
@@ -43,6 +34,19 @@ After looking when the brand is lit and the location is naturally dark:
 The player carries a short blade. The description of the blade is "It's one of the few things your momma ever gave you."
 Instead of eating the short blade: say "Only the men in Jack's gang were expected to practice sword swallowing."
 Understand "sword/weapon/knife" as the blade.
+
+section - the child 
+
+The child is part of the player. Understand "baby" and "daughter" and "foetus" and "fetus" as the child. The description of the child is "It's a girl, according to the doctor who discussed the 20-week echo with you. When he heard that, Jack tried to force you to have an abortion. That will never happen.[paragraph break]You rub your belly and imagine a newborn cradled in your arms. She would be perfect, of course. Beautiful and intelligent.".
+
+The child is a woman.
+
+Understand "girl" and "baby" and "daughter" and "foetus" and "fetus" as the child.
+
+Instead of summoning or dropping the child, say "Its time has not come yet."
+
+Instead of pushing or pulling or taking when the noun is the child, try touching the child.
+After touching the child: say "You lay a hand on your belly[if a random chance of 1 in 6 succeeds].[paragraph break]A kick! You're sure you felt [one of]her[or]another[stopping] kick just now[end if]." Understand "belly/stomach/tummy" as the child while the child is part of the player.
 
 
 Section - Summoning
@@ -88,7 +92,6 @@ Jack is a man. Instead of summoning jack: say "That's the last thing you'd do ri
 [backdrops]
 
 The beacon is a backdrop. The description is "Far to the west, sunset gilds the metal spine of the pharos." It is in the Perilous Perch and the Rocky Ledge. Understand "tower/pharos/lighthouse" or "great tower/pharos/lighthouse" as the beacon.
-
 
 Instead of doing anything other than examining with the beacon, say "The beacon is miles distant, and you don't think it can see you. Not yet."
 
@@ -176,12 +179,27 @@ After dropping or inserting when the noun is the obsidian cat:
 
 The desiccated skeleton is in the Cave Entrance. It is fixed in place. The initial appearance is "Half-buried by rubble you see the broken remains of a body." The description is "It looks to have been dead for a long time. Under the tatters of its smock, little but bones and sinew remains. Whoever it was must have died in this unfortunate position, head thrown back, fangs bared, hands cradling one another against the chest." Understand "corpse/body/remains/remnants/bones/carcass/sinew" as the skeleton.
 
-Some withered hands are part of the skeleton. The hands are plural-named and scenery.  The hands can be open or closed. The hands are closed. The description is "[if the hands are open]They are pressed tight over the body's breast bone[otherwise]Broken, the hands are fixed in impotent supplication[end if]." Understand "fingers/hand/grip/grasp" as the hands.
+Some withered hands are part of the skeleton. The hands are plural-named and scenery. The hands can be open or closed. The hands are closed. The description is "[if the hands are open]They are pressed tight over the body's breast bone[otherwise]Broken, the hands are fixed in impotent supplication[end if]." Understand "fingers/hand/grip/grasp" as the hands.
 
 Instead of doing something other than examining to the hands for the first time:
    say "You pry the fingers apart, eliciting a noise like that of cracking walnuts from the hapless skeleton. Something slips from its grasp and falls to the ground.";
    now the obsidian cat is in the Cave Entrance.
+
+instead of searching the skeleton:
+   say "You carefully inspect the remains but find nothing more of interest.";
    
+instead of searching the skeleton when the hands are closed:
+   say "The body is little but dry bones, and can hardly hide anything. Except... is there something in the hands?";
+
+Instead of doing something other than examining to the hands for the first time:
+   say "You pry the fingers apart, eliciting a noise like that of cracking walnuts from the hapless skeleton. Something slips from its grasp and falls to the ground.";
+   now the hands are open;
+   now the obsidian cat is in the Cave Entrance.
+
+Some fangs are part of the skeleton. The fangs are plural-named and scenery. The description is "The dead skull almost seems to be smiling, with two inch-long fangs extending from the upper jaw. They tell you two things: that the body once was a man -- and that he was of your kind. Women don't have fangs, nor do human men (like Jack).".
+
+Some vines are scenery, here.
+
 Instead of going northeast from the Cave Entrance when the brand is not lit, say "Much too dark in there for you to grope about without a torch or lumin or something."
 
 Section - Lightless Shaft
@@ -208,8 +226,11 @@ Instead of pushing Sgt Duffy:
 Instead of attacking Sgt Duffy, try pushing Sgt Duffy.
 
 
+Section - test - Not for release
 
+test cave with "ne / x crack / i / put blade in crack / look / enter tunnel / x body / x hands / open hands / look / take item / x shoulder / x brand / ne / x brand" in the rocky ledge
 
+test walkthru with "test cave"
 
 
 
