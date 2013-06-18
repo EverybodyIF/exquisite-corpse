@@ -23,12 +23,21 @@ An incomplete brand is part of the player. "Craning your neck, you look down to 
 The player carries a short blade. The description of the blade is "It's one of the few things your momma ever gave you."
 Instead of eating the short blade: say "Only the men in Jack's gang were expected to practice sword swallowing."
 
+[backdrops]
 
 The beacon is a backdrop. The description is "Far to the west, sunset gilds the metal spine of the pharos." It is in the Perilous Perch and the Rocky Ledge. Understand "pharos" or "lighthouse" as the beacon.
 
 The harbor is a backdrop. The description of the harbor is "Piers and warehouses and dormitories without number, all smeared together by the soot belching from the smokestacks. Low-slung watercraft -- ferries and sleds mostly -- flit like ants between the piers and the far-off reef moorings, out where the deepwater haulers wait. Landward, the curtain wall rises tall, its short stubby turrets menacing the sky. The great tower of the pharos overlooks them all."  It is in the Perilous Perch and the Rocky Ledge. Understand "harbour" or "city" as the harbor.
 
 Instead of doing anything other than examining with the beacon, say "The beacon is miles distant, and you don't think it can see you. Not yet."
+
+The wind is a backdrop. The wind is in the Perilous Perch and the Rocky Ledge. The description of the wind is "This wind is unnatural: fast, but not overwhelmingly so; perceivable with every sense, yet repulsive to the same."
+
+Instead of listening to the wind: say "The wind wails painfully over a deep minor melody."
+
+Instead of listening to a room when the wind is in the location: try listening to the wind.
+
+[body]
 
 Section - Rocky Ledge
 
