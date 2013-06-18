@@ -22,6 +22,9 @@ Instead of examining the player: say "You are twenty-four, obviously pregnant, a
 
 The child is part of the player. Understand "baby" and "daughter" and "foetus" and "fetus" as the child. The description of the child is "It's a girl, according to the doctor who discussed the 20-week echo with you. When he heard that, Jack tried to force you to have an abortion. That will never happen.[paragraph break]You rub your belly and imagine a newborn cradled in your arms. She would be perfect, of course. Beautiful and intelligent.".
 
+The child is a woman.
+Instead of summoning the child, say "Its time has not come yet."
+
 An incomplete brand is part of the player. "Craning your neck, you look down to see the edges of the brand, bleeding but flawed, mercifully incomplete." Understand "weird" as the brand.
 
 The player carries a short blade. The description of the blade is "It's one of the few things your momma ever gave you."
@@ -36,27 +39,37 @@ Section - Summoning
 [ Note: visible means "in scope", not necessarily in the same room  ]
 Summoning is an action applying to one visible thing. Understand "summon [any thing]" as summoning.
 
-
 First check summoning the player: instead say "You're already here."
 
+Carry out summoning a person:
+	if noun is not visible: 
+		move noun to location;
+	
 Check summoning when the noun is not a person:
 	if noun is visible: 
 		say "You can't summon a thing, only a person.";
 	else:
 		say "That's not something you can see now.";
-   
-   
+      
 [ Add some further logic to summon other characters if necessary ]
 Check summoning when the noun is a person:
 	if noun is Sgt Duffy:
-		if noun is not visible: 
-			move noun to location;
-			say "[noun] steps into the room. [one of]'You called?'[or]'What can I do ya for?'[or]'Here I am.'[or]'All yours.[or]'Yes, sir.'[then at random]";
-		else:
-			say "'Dollar, I'm right here.'";
+		continue the action;
 	else:
 		[ other code for other NPCs might go here ]
-		say "There's no response."
+		say "There's no response.";
+		stop the action;
+		
+Report summoning a person:
+   if the person is not visible, say "[The noun] is suddenly present with you, looking around counfusedly.";
+   otherwise say "There's no repsonse from [the noun]."
+   
+After summoning Sgt Duffy:
+   if Sgt Duffy was not visible, say "[noun] steps into the room. [one of]'You called?'[or]'What can I do ya for?'[or]'Here I am.'[or]'All yours.[or]'Yes, sir.'[then at random]";
+   otherwise say "'Dollar, I'm right here.'";
+
+Jack is a man. Instead of summoning jack: say "That's the last thing you'd do right now!"
+
 
 [backdrops]
 
@@ -129,11 +142,15 @@ Instead of going inside in Perilous Perch: try going east.
 
 Section - Cave Entrance 
 
-The Cave Entrance is a room. "A narrow opening choked by fallen masonry and choking vines. The remnants of a wagon wheel rises from the dirt; the wood is dark with rot. To the northeast, where the cliff wall breaks surface, is a dark slash of an opening into the rock."
+The Cave Entrance is a room. "Through the narrow opening to the west, choked by fallen masonry and choking vines, you can glimpse the sky. The remnants of a wagon wheel rises from the dirt; the wood is dark with rot. To the northeast, where the cliff wall breaks surface, is a dark slash of an opening into the rock." 
 
 The wagon wheel is here. It is scenery.
 
-The Obsidian Cat is in the Cave Entrance. "A small item lies in the dust." The description is "[if the cat is handled]Standing about four inches tall, this small statue has eyes made from polished garnet[otherwise]The dust is so thick over it that you can hardly see[end if]." Understand "small" or "item/thing" as the obsidian cat when the cat is not handled. Understand "statue/figurine/garnet" as the cat.
+The obsidian cat is in the Cave Entrance. "A small item lies in the dust." 
+
+The description of the obsidian cat is "[if the cat is handled]Standing about four inches tall, this small statue in the image of a cat carved in obsidian  has eyes made from polished garnet[otherwise]The dust is so thick over it that you can hardly see[end if]." 
+
+Understand "small" or "item/thing" as the obsidian cat when the cat is not handled. Understand "statue/figurine/garnet" as the cat.
 
 After taking the obsidian cat: 
    now the brand is lit;
