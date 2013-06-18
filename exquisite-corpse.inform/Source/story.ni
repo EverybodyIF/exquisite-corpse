@@ -182,12 +182,16 @@ Instead of doing something other than examining to the hands for the first time:
    say "You pry the fingers apart, eliciting a noise like that of cracking walnuts from the hapless skeleton. Something slips from its grasp and falls to the ground.";
    now the obsidian cat is in the Cave Entrance.
    
+Instead of going northeast from the Cave Entrance when the brand is not lit, say "Much too dark in there for you to grope about without a torch or lumin or something."
+
 Section - Lightless Shaft
 
 A room can be naturally dark.
 
 The Lightless Shaft is northeast of the Cave Entrance. It is naturally dark.
 Instead of going northeast from the Cave Entrance when the brand is not lit, say "Much too dark in there for you to grope about without a torch or lumin or something."
+
+Instead of going southwest from the Lightless Shaft when the brand is not lit, say "You made it this far with its inanimate assistance, so why not continue your travels for a while with the Obsidian Cat in your retinue?"
 
 Section - Sgt Duffy NPC
 
