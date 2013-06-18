@@ -90,7 +90,9 @@ Instead of jumping in Rocky Ledge: say "While death [italic type]may[roman type]
 Instead of going up while in Rocky Ledge:
 	try going northeast.
 
-Instead of going down in Rocky Ledge: 
+Instead of going southwest in Rocky Ledge, say "Back to Jack and his gang? No."
+
+Instead of going down while in Rocky Ledge: 
 	try jumping.
 	
 Section - Perilous Perch
