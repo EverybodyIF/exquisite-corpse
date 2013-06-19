@@ -173,8 +173,8 @@ After taking the obsidian cat:
    now the brand is lit;
    say "[one of]You carefully lift the thing and brush it off. It's a small statue, intricately carved in vitreous stone.[paragraph break]You feel your shoulder beginning to itch[or]You pick up the statue again. Once more, there's the itching[or]You take the statue, feeling the expected itch[stopping]."
 
-After dropping or inserting when the noun is the obsidian cat: 
-   say "The instant the figurine leaves your touch, the glow from your brand fades away and the itching stops.";
+After dropping or inserting when the noun is the obsidian cat (this is the letting go of the cat figurine rule): 
+   say "The instant the figurine leaves your touch, the itching stops.";
    now the brand is not lit.
 
 Instead of dropping the obsidian cat when the location is somewhere naturally dark, say "[one of]You let go of the figurine and are immediately plunged into utter darkness. Luckily, you can tell where it fell by the sound it made. The instant your groping fingers brush across the small statue, you feel the telltale itching of your scar return as it flares to light again.[paragraph break]That was close[or]You'd rather not blind yourself again if you could help it[stopping]."
