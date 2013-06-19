@@ -213,6 +213,9 @@ Section - Lightless Shaft
 A room can be naturally dark.
 
 The Lightless Shaft is northeast of the Cave Entrance. It is naturally dark.
+
+The graffiti is scenery in the lightless shaft.  The description of the grafitti is "Painted into the wall is a small sentence; written in haste by the look of it: [italic type]cuidado la maldicion![roman type]"
+
 Instead of going northeast from the Cave Entrance when the brand is not lit, say "Much too dark in there for you to grope about without a torch or lumin or something."
 
 Instead of going southwest from the Lightless Shaft when the brand is not lit, say "You made it this far with its inanimate assistance, so why not continue your travels for a while with the Obsidian Cat in your retinue?"
