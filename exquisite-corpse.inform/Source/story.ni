@@ -318,6 +318,12 @@ Instead of going northeast from the Cave Entrance when the brand is not lit, say
 
 Instead of going southwest from the Lightless Shaft when the brand is not lit, say "You made it this far with its inanimate assistance, so why not continue your travels for a while with the Obsidian Cat in your retinue?"
 
+Section - Stone steps
+
+Stone Steps are southeast of Lightless Shaft.
+
+the description of Stone Steps is "This is a tunnel carved into stone.  The tunnel slopes sharply downwards to the southeast, but crude stone steps have been carved to assist with footing."
+
 Section - Forgotten Cache
 
 Forgotten Cache is south of Lightless Shaft. "The tunnel swells into a tall, unhospitable-looking chamber. Here, foam-stone bracings and metal reinforcements have replaced the improvised look of the other tunnels. The floor is a perfectly smooth, dull grey. From here, you can go north back to the tunnel shaft."
