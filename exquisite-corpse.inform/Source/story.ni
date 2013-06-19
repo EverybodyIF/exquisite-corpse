@@ -1,5 +1,7 @@
 "Exquisite Corpse (Working Title)" by Various Authors
 
+Include Conversation Responses by Eric Eve.
+
 Section - scenes
 
 Overture is a scene. Overture begins when play begins.
@@ -140,6 +142,21 @@ After summoning Sgt Duffy:
 
 Jack is a man. Instead of summoning jack: say "That's the last thing you'd do right now!"
 
+A person can be imaginary. A person is usually not imaginary. 
+
+Dismissing is an action applying to one thing. Understand "dismiss [somebody]" as dismissing.
+
+check dismissing something:
+	if the noun is the player:
+		say "Sometimes you wish you could just disappear, but it doesn't work like that."; 
+		stop the action;
+	if the noun is not an imaginary person:
+		say "[The noun] does not respond to your dismissal.";
+		stop the action;
+      
+carry out dismissing:
+	say "[The noun] nods a goodbye, walks off, and is gone.";
+	now the noun is off-stage;
 
 Section - backdrops 
 
@@ -369,6 +386,14 @@ Instead of pushing Sgt Duffy:
    now Sgt Duffy is Angry.
 
 Instead of attacking Sgt Duffy, try pushing Sgt Duffy.
+
+Sgt Duffy is imaginary.
+
+Greeting response for Sgt Duffy:
+   say "'Hello, Sergeant', you say.[line break]'Oh, hello luv.'"
+   
+response for Sgt Duffy when asked-or-told about Sgt Duffy:
+   say "Sgt Duffy is not inclined to talk about himself.";
 
 Section - test - Not for release
 
