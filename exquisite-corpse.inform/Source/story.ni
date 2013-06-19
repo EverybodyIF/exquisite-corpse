@@ -270,6 +270,8 @@ Section - Forgotten Cache
 
 Forgotten Cache is south of Lightless Shaft. "The tunnel swells into a tall, unhospitable-looking chamber. Here, foam-stone bracings and metal reinforcements have replaced the improvised look of the other tunnels. The floor is a perfectly smooth, dull grey. From here, you can go south back to the tunnel shaft."
 
+The Forgotten Cache is naturally dark.
+
 Some abandoned crates are here. "A pile of old crates are stacked in one corner, looking pitifully few compared to what the room probably held once." They are fixed in place. They are plural-named. The description is "Water has abraded the old pre-upheaval pictograms on their side, but it's definitely something produced for the military[first time]. Which is no wonder, really, given the old stories about sapper regiments making their defiant stand in this region[only]."
 
 Section - Sgt Duffy NPC
