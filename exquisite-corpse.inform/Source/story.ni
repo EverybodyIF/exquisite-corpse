@@ -214,7 +214,7 @@ A room can be naturally dark.
 
 The Lightless Shaft is northeast of the Cave Entrance. It is naturally dark.
 
-The description of the lightless shaft is "[if lit] An otherwise unremarkable passageway, someone seems to have scrawled a message on one wall.[end if]"
+The description of Lightless Shaft is "Heavy timbers hold up the earth that surrounds you in this claustrophobic tunnel.  Something is written on the wall here.  Passages lead southwest, south, and southeast."
 
 The graffiti is scenery in the lightless shaft.  The description of the graffiti is "Painted into the wall is a small sentence; written in haste by the look of it: [italic type]cuidado la maldicion![roman type]"
 
