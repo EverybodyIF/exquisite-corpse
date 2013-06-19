@@ -22,9 +22,9 @@ The player is female.
 
 Instead of examining the player: say "You are twenty-four, obviously pregnant, and marked by a weird[if the brand is lit and the location is naturally dark], glowing[end if] brand on your left shoulder."
 
-A shoulder is part of the player. The description is "On your right shoulder is an incomplete brand."
+A shoulder is part of the player. The description is "On your right shoulder is an incomplete brand[if the brand is lit and the location is naturally dark], which blazes with a weird light[end if]."
 
-An incomplete brand is part of the player. The description is "Craning your neck, you look down to see the edges of the brand, bleeding but flawed, mercifully incomplete[if the brand is lit and the location is naturally dark]. You wouldn't see it in the dark at all if not for the dull, flickering light emanating through your torn flesh.[end if]."
+An incomplete brand is part of the player. The description is "Craning your neck, you look down to see the edges of the brand, bleeding but flawed, mercifully incomplete[if the brand is lit and the location is naturally dark]. You wouldn't see it well, except for the dull, flickering light that smolders deep within the wound[end if]."
 
 Understand "weird" as the brand.
 
@@ -177,12 +177,15 @@ After dropping or inserting when the noun is the obsidian cat:
    say "The instant the figurine leaves your touch, the glow from your brand fades away and the itching stops.";
    now the brand is not lit.
 
+Instead of dropping the obsidian cat when the location is somewhere naturally dark, say "[one of]You let go of the figurine and are immediately plunged into utter darkness. Luckily, you can tell where it fell by the sound it made. The instant your groping fingers brush across the small statue, you feel the telltale itching of your scar return as it flares to light again.[paragraph break]That was close[or]You'd rather not blind yourself again if you could help it[stopping]."
+
 The desiccated skeleton is in the Cave Entrance. It is fixed in place. The initial appearance is "Half-buried by rubble you see the broken remains of a body." The description is "It looks to have been dead for a long time. Under the tatters of its smock, little but bones and sinew remains. Whoever it was must have died in this unfortunate position, head thrown back, fangs bared, hands cradling one another against the chest." Understand "corpse/body/remains/remnants/bones/carcass/sinew" as the skeleton.
 
 Some withered hands are part of the skeleton. The hands are plural-named and scenery. The hands can be open or closed. The hands are closed. The description is "[if the hands are open]They are pressed tight over the body's breast bone[otherwise]Broken, the hands are fixed in impotent supplication[end if]." Understand "fingers/hand/grip/grasp" as the hands.
 
-Instead of doing something other than examining to the hands for the first time:
+Instead of doing something other than examining or summoning or memscribing to the hands for the first time:
    say "You pry the fingers apart, eliciting a noise like that of cracking walnuts from the hapless skeleton. Something slips from its grasp and falls to the ground.";
+   now the hands are open;
    now the obsidian cat is in the Cave Entrance.
 
 instead of searching the skeleton:
@@ -197,6 +200,9 @@ Instead of doing something other than examining to the hands for the first time:
    now the obsidian cat is in the Cave Entrance.
 
 Some fangs are part of the skeleton. The fangs are plural-named and scenery. The description is "The dead skull almost seems to be smiling, with two inch-long fangs extending from the upper jaw. They tell you two things: that the body once was a man -- and that he was of your kind. Women don't have fangs, nor do human men (like Jack).".
+
+Instead of memscribing something part of the skeleton, try memscribing the skeleton.
+Instead of memscribing the skeleton, say "As the mind passes into death so does it cross the point of memscription, no matter how deft the practitioner."
 
 Some vines are scenery, here.
 
@@ -224,7 +230,6 @@ Instead of pushing Sgt Duffy:
    now Sgt Duffy is Angry.
 
 Instead of attacking Sgt Duffy, try pushing Sgt Duffy.
-
 
 Section - test - Not for release
 
