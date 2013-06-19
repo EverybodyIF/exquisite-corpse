@@ -90,10 +90,15 @@ The child is part of the player. Understand "baby" and "daughter" and "foetus" a
 The child is a woman.
 
 Understand "girl" and "baby" and "daughter" and "foetus" and "fetus" as the child.
+Understand "kid" as the child.
 
-Instead of summoning or dropping the child, say "Its time has not come yet."
+Instead of summoning or dropping the child, say "Its time has not come yet.".
+
+Instead of attacking the child:
+   say "Never".
 
 Instead of pushing or pulling or taking when the noun is the child, try touching the child.
+
 After touching the child: say "You lay a hand on your belly[if a random chance of 1 in 6 succeeds].[paragraph break]A kick! You're sure you felt [one of]her[or]another[stopping] kick just now[end if]." Understand "belly/stomach/tummy" as the child while the child is part of the player.
 
 Section - Summoning
@@ -172,6 +177,9 @@ Instead of going southwest in Rocky Ledge, say "Back to Jack and his gang? No."
 Instead of going down while in Rocky Ledge: 
 	try jumping.
 	
+Instead of going down while in Rocky Ledge:
+   try going southwest.
+	
 Section - Perilous Perch
 
 The Perilous Perch is northeast of Rocky Ledge. "From here, you can see the entire harbor, but the wind is so treacherous that your concentration is mainly spent on staying afoot. The [if the passage is open]only path[otherwise]path you came by[end if] leads down to the southwest but [if the passage is open]now a tunnel yawns[otherwise]a small crack can be seen[end if] in the rock face behind you."
@@ -225,9 +233,14 @@ The wagon wheel is scenery in Cave Entrance.  The description of the wagon wheel
 Understand "wood" as the wagon wheel while in Cave Entrance.
 
 The fallen masonry is scenery in Cave Entrance.  The description of the fallen masonry is "Chunks of granite, strewn about.".
-Understand "rubble/chunks/granite/chunks of granite" as the fallen masonry.
+Understand "rubble/chunks/granite" or "chunks of granite" as the fallen masonry.
 
 Some vines are scenery in Cave Entrance.
+
+Instead of cutting the vines:
+   say "There is already a narrow opening through the vines. It would not be wise to make the passage more obvious."
+
+The smock is scenery in the Cave Entrance. Understand "tatters" as the smock.
 
 Instead of going northeast from the Cave Entrance when the brand is not lit, say "Much too dark in there for you to grope about without a torch or lumin or something."
 
@@ -249,9 +262,14 @@ After dropping or inserting when the noun is the obsidian cat (this is the letti
 
 Instead of dropping the obsidian cat when the location is somewhere naturally dark, say "[one of]You let go of the figurine and are immediately plunged into utter darkness. Luckily, you can tell where it fell by the sound it made. The instant your groping fingers brush across the small statue, you feel the telltale itching of your scar return as it flares to light again.[paragraph break]That was close[or]You'd rather not blind yourself again if you could help it[stopping]."
 
+Instead of rubbing the obsidian cat when the obsidian cat is not handled:
+   try taking the obsidian cat.
+
 Section - skeleton
 
-The desiccated skeleton is in the Cave Entrance. It is fixed in place. The initial appearance is "Half-buried by rubble you see the broken remains of a body." The description is "It looks to have been dead for a long time. Under the tatters of its smock, little but bones and sinew remains. Whoever it was must have died in this unfortunate position, head thrown back, fangs bared, hands cradling one another against the chest." Understand "corpse/body/remains/remnants/bones/carcass/sinew" as the skeleton.
+The desiccated skeleton is in the Cave Entrance. It is fixed in place. The initial appearance is "Half-buried by rubble you see the broken remains of a body." The description is "It looks to have been dead for a long time. Under the tatters of its smock, little but bones and sinew remains. Whoever it was must have died in this unfortunate position, head thrown back, fangs bared, hands cradling one another against the chest." 
+
+Understand "corpse/body/remains/remnants/bones/carcass/sinew/sinews" as the skeleton.
 
 Some withered hands are part of the skeleton. The hands are plural-named and scenery. The hands can be open or closed. The hands are closed. The description is "[if the hands are closed]They are pressed tight over the body's breast bone[otherwise]Broken, the hands are fixed in impotent supplication[end if]." Understand "fingers/hand/grip/grasp" as the hands.
 
@@ -276,7 +294,10 @@ Instead of doing something to the skeleton when the action implies physical cont
 
 Some fangs are part of the skeleton. The fangs are plural-named and scenery. The description is "The dead skull almost seems to be smiling, with two inch-long fangs extending from the upper jaw. They tell you two things: that the body once was a man -- and that he was of your kind. Women don't have fangs, nor do human men (like Jack).".
 
+Understand "fang/jaw" as the fangs.
+
 Instead of memscribing something part of the skeleton, try memscribing the skeleton.
+
 Instead of memscribing the skeleton, say "As the mind passes into death so does it cross the point of memscription, no matter how deft the practitioner."
 
 Section - Lightless Shaft
@@ -305,13 +326,15 @@ The Forgotten Cache is naturally dark.
 
 Some abandoned crates are here. "A pile of old crates are stacked in one corner, looking pitifully few compared to what the room probably held once." They are fixed in place. They are plural-named. The description is "Water has abraded the old pre-upheaval pictograms on their side, but it's definitely something produced for the military[first time]. Which is no wonder, really, given the old stories about sapper regiments making their defiant stand in this region[only]."
 
+Understand "pile" or "crate" or "pile of crates" or "pile of abandoned crates" as the abandoned crates.
+
 Section - Sgt Duffy NPC
 
 [ Is it ok to add a character?  This is not fully fleshed out, but rather as a starting point so that others might add more interaction with the character, ask/tell etc.  Note that the character starts out off-stage.  I hope others will add to this. ]
 
 Sgt Duffy is a man.  Sgt Duffy has description "Sgt Duffy looks like a cop whose mission in life is to avoid trouble.  He's a couple of pounds over his uniform size and his skin glistens faintly from the humidity.  Or maybe he's just nervous."
 
-Understand "Duff/duf/dufy/diffy/duggy/sargent/seargent/sarge/sergeant", "the seargent", "the sergeant", "Seargent Duffy", "Seargeant Duffy" as Sgt Duffy.
+Understand "Duff/duf/dufy/diffy/duggy/sargent/seargent/sarge/sergeant/cop/police/policeman", "the seargent", "the sergeant", "Seargent Duffy", "Seargeant Duffy" or "police man" as Sgt Duffy.
 
 Instead of pushing Sgt Duffy:
    say "Sgt Duffy easily blocks your move.  [one of]'What in blazes has gotten into you?'[or]'If you try that again, I'm gonna get angry.'[or]He glares at you coldly.[stopping]";
@@ -324,6 +347,9 @@ Section - test - Not for release
 test cave with "ne / x crack / i / put blade in crack / look / enter tunnel / x body / x hands / open hands / look / take item / x shoulder / x brand / ne / x brand" in the rocky ledge
 
 test walkthru with "test cave"
+
+
+
 
 
 
