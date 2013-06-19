@@ -39,6 +39,13 @@ listing exits is an action applying to nothing.
 Understand "exits" as listing exits.
 carry out listing exits: say "[exit list][enterable list]";
 
+Section - notable locale objects 
+
+Rule for choosing notable locale objects (this is the tweaked locale priority rule): 
+	repeat with item running through things in location: 
+		if the item is fixed in place, set the locale priority of the item to 4;
+		else set the locale priority of the item to 5.
+
 Section - scenes
 
 Overture is a scene. Overture begins when play begins.
@@ -55,37 +62,17 @@ Instead of memscribing the child, say "Far too dangerous to consider with any in
 Instead of memscribing yourself, say "Memscribing yourself? You wouldn't even know where to begin."
 Instead of memscribing something not susceptible, say "[The noun] can't be worked by memscription."
 
-Section - rules etc
+Section - some loose ends
 
 A person can be neutral, friendly or angry.  A person is usually neutral.
 
 Instead of singing: say "When all this is over, you'll sing, sing like a bird that is no longer caged. But not yet."
-
-Section - notable locale objects 
-
-Rule for choosing notable locale objects (this is the tweaked locale priority rule): 
-	repeat with item running through things in location: 
-		if the item is fixed in place, set the locale priority of the item to 4;
-		else set the locale priority of the item to 5.
 
 Section - the player 
 
 The player is female. 
 
 Instead of examining the player: say "You are twenty-four, obviously pregnant, and marked by a weird[if the brand is lit and the location is naturally dark], glowing[end if] brand on your left shoulder."
-
-A shoulder is part of the player. The description is "On your right shoulder is an incomplete brand[if the brand is lit and the location is naturally dark], which blazes with a weird light[end if]."
-
-An incomplete brand is part of the player. The description is "Craning your neck, you look down to see the edges of the brand, bleeding but flawed, mercifully incomplete[if the brand is lit and the location is naturally dark]. You wouldn't see it well, except for the dull, flickering light that smolders deep within the wound[end if]."
-
-Understand "weird" as the brand.
-
-After looking when the brand is lit and the location is naturally dark:
-   say "Your brand seems to be giving off an eerie sort of light."
-
-The player carries a short blade. The description of the blade is "It's one of the few things your momma ever gave you."
-Instead of eating the short blade: say "Only the men in Jack's gang were expected to practice sword swallowing."
-Understand "sword/weapon/knife" as the blade.
 
 Section - the child 
 
@@ -104,6 +91,23 @@ Instead of attacking the child:
 Instead of pushing or pulling or taking when the noun is the child, try touching the child.
 
 After touching the child: say "You lay a hand on your belly[if a random chance of 1 in 6 succeeds].[paragraph break]A kick! You're sure you felt [one of]her[or]another[stopping] kick just now[end if]." Understand "belly/stomach/tummy" as the child while the child is part of the player.
+
+Section - shoulder and brand
+
+A shoulder is part of the player. The description is "On your right shoulder is an incomplete brand[if the brand is lit and the location is naturally dark], which blazes with a weird light[end if]."
+
+An incomplete brand is part of the player. The description is "Craning your neck, you look down to see the edges of the brand, bleeding but flawed, mercifully incomplete[if the brand is lit and the location is naturally dark]. You wouldn't see it well, except for the dull, flickering light that smolders deep within the wound[end if]."
+
+Understand "weird" as the brand.
+
+After looking when the brand is lit and the location is naturally dark:
+   say "Your brand seems to be giving off an eerie sort of light."
+
+section - the player's possessions
+
+The player carries a short blade. The description of the blade is "It's one of the few things your momma ever gave you."
+Instead of eating the short blade: say "Only the men in Jack's gang were expected to practice sword swallowing."
+Understand "sword/weapon/knife" as the blade.
 
 Section - Summoning
 
