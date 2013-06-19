@@ -1,8 +1,12 @@
 "Exquisite Corpse (Working Title)" by Various Authors
 
+Section - scenes
+
 Overture is a scene. Overture begins when play begins.
 
 After waiting during Overture: say "[one of]You fidget as you wait[or]Time passes in silence[or]You glance uneasily about as the seconds creep by[or]You wait, restless[at random]."
+
+Section - memscribing 
 
 Memscribing is an action applying to one thing. Understand "memscribe [something]" as memscribing.
 
@@ -11,6 +15,8 @@ Definition: something is susceptible: if it is a person, yes.
 Instead of memscribing the child, say "Far too dangerous to consider with any infant, let alone your own blood." 
 Instead of memscribing yourself, say "Memscribing yourself? You wouldn't even know where to begin."
 Instead of memscribing something not susceptible, say "[The noun] can't be worked by memscription."
+
+Section - rules etc
 
 A person can be neutral, friendly or angry.  A person is usually neutral.
 
@@ -21,7 +27,7 @@ Rule for choosing notable locale objects (this is the tweaked locale priority ru
 		if the item is fixed in place, set the locale priority of the item to 4;
 		else set the locale priority of the item to 5.
 		
-section physical contact
+Section - physical contact
 
 To decide whether action implies physical contact: 
    if the current action is listening to something, no;
@@ -31,7 +37,7 @@ To decide whether action implies physical contact:
    if the action requires a touchable second noun, yes; 
    no. 
 
-section listing exits and enterables 
+Section - listing exits and enterables 
 
 To say enterable list: 
 	if an enterable container (called playerbox) encloses the player:
@@ -58,7 +64,7 @@ listing exits is an action applying to nothing.
 Understand "exits" as listing exits.
 carry out listing exits: say "[exit list][enterable list]";
 
-section - the player 
+Section - the player 
 
 The player is female. 
 
@@ -77,7 +83,7 @@ The player carries a short blade. The description of the blade is "It's one of t
 Instead of eating the short blade: say "Only the men in Jack's gang were expected to practice sword swallowing."
 Understand "sword/weapon/knife" as the blade.
 
-section - the child 
+Section - the child 
 
 The child is part of the player. Understand "baby" and "daughter" and "foetus" and "fetus" as the child. The description of the child is "It's a girl, according to the doctor who discussed the 20-week echo with you. When he heard that, Jack tried to force you to have an abortion. That will never happen.[paragraph break]You rub your belly and imagine a newborn cradled in your arms. She would be perfect, of course. Beautiful and intelligent.".
 
@@ -89,7 +95,6 @@ Instead of summoning or dropping the child, say "Its time has not come yet."
 
 Instead of pushing or pulling or taking when the noun is the child, try touching the child.
 After touching the child: say "You lay a hand on your belly[if a random chance of 1 in 6 succeeds].[paragraph break]A kick! You're sure you felt [one of]her[or]another[stopping] kick just now[end if]." Understand "belly/stomach/tummy" as the child while the child is part of the player.
-
 
 Section - Summoning
 
@@ -131,7 +136,7 @@ After summoning Sgt Duffy:
 Jack is a man. Instead of summoning jack: say "That's the last thing you'd do right now!"
 
 
-[backdrops]
+Section - backdrops 
 
 The beacon is a backdrop. The description is "Far to the west, sunset gilds the metal spine of the pharos." It is in the Perilous Perch and the Rocky Ledge. Understand "tower/pharos/lighthouse" or "great tower/pharos/lighthouse" as the beacon.
 
@@ -182,6 +187,10 @@ say "[one of]You've never liked those gulls, always whooping and cawing at a the
 Every turn while in Perilous Perch:
 	say "[one of]The wind screams in your ears for a moment, then dies down.[or]The sounds of shorebirds can be heard from the harbor.[or]You think you hear voices, but you hope you are mistaken.[or]The wind whistles ominously around the cliffs.[or]You hear the sound of a solitary gull.[or]You think you hear movement down toward the rocky ledge.[purely at random]"
 
+Instead of going inside in Perilous Perch: try going east.
+
+Section - hidden passage 
+
 The hidden passage is a scenery door. It is unopenable and closed. The printed name of the passage is "[if the passage is open]passage[otherwise]crack[end if]". 
 The description of the hidden passage is "[if the passage is closed]The crack is narrow in the otherwise dust-covered rock[otherwise]The darkness in this passage is compact[end if]."
 
@@ -202,10 +211,11 @@ This is the silenced can't go through undescribed doors rule:
 
 The silenced can't go through undescribed doors rule is listed instead of the can't go through undescribed doors rule in the check going rules.
 
-The kataphraktos is a person. The description is "Squat and sightless, the kataphraktos does not move beyond the slow, rippling clicks of its scales. You still feel its attention on you, passionless and focused." The kataphraktos carries a glaive and a mandate. Understand "cataphract" or "guard" as the kataphraktos.
-
 Instead of entering the passage: try going east.
-Instead of going inside in Perilous Perch: try going east.
+
+Section - kataphraktos 
+
+The kataphraktos is a person. The description is "Squat and sightless, the kataphraktos does not move beyond the slow, rippling clicks of its scales. You still feel its attention on you, passionless and focused." The kataphraktos carries a glaive and a mandate. Understand "cataphract" or "guard" as the kataphraktos.
 
 Section - Cave Entrance 
 
@@ -216,6 +226,12 @@ Understand "wood" as the wagon wheel while in Cave Entrance.
 
 The fallen masonry is scenery in Cave Entrance.  The description of the fallen masonry is "Chunks of granite, strewn about.".
 Understand "rubble/chunks/granite/chunks of granite" as the fallen masonry.
+
+Some vines are scenery in Cave Entrance.
+
+Instead of going northeast from the Cave Entrance when the brand is not lit, say "Much too dark in there for you to grope about without a torch or lumin or something."
+
+Section - Obsidian Cat 
 
 The obsidian cat is in the Cave Entrance. "A small item lies in the dust." 
 
@@ -232,6 +248,8 @@ After dropping or inserting when the noun is the obsidian cat (this is the letti
    now the brand is not lit.
 
 Instead of dropping the obsidian cat when the location is somewhere naturally dark, say "[one of]You let go of the figurine and are immediately plunged into utter darkness. Luckily, you can tell where it fell by the sound it made. The instant your groping fingers brush across the small statue, you feel the telltale itching of your scar return as it flares to light again.[paragraph break]That was close[or]You'd rather not blind yourself again if you could help it[stopping]."
+
+Section - skeleton
 
 The desiccated skeleton is in the Cave Entrance. It is fixed in place. The initial appearance is "Half-buried by rubble you see the broken remains of a body." The description is "It looks to have been dead for a long time. Under the tatters of its smock, little but bones and sinew remains. Whoever it was must have died in this unfortunate position, head thrown back, fangs bared, hands cradling one another against the chest." Understand "corpse/body/remains/remnants/bones/carcass/sinew" as the skeleton.
 
@@ -260,10 +278,6 @@ Some fangs are part of the skeleton. The fangs are plural-named and scenery. The
 
 Instead of memscribing something part of the skeleton, try memscribing the skeleton.
 Instead of memscribing the skeleton, say "As the mind passes into death so does it cross the point of memscription, no matter how deft the practitioner."
-
-Some vines are scenery, here.
-
-Instead of going northeast from the Cave Entrance when the brand is not lit, say "Much too dark in there for you to grope about without a torch or lumin or something."
 
 Section - Lightless Shaft
 
