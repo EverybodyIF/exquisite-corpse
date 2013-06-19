@@ -165,7 +165,7 @@ The wagon wheel is here. It is scenery.
 
 The obsidian cat is in the Cave Entrance. "A small item lies in the dust." 
 
-The description of the obsidian cat is "[if the cat is handled]Standing about four inches tall, this small statue in the image of a cat carved in obsidian  has eyes made from polished garnet[otherwise]The dust is so thick over it that you can hardly see[end if]." 
+The description of the obsidian cat is "[if the cat is handled]Standing about four inches tall, this small statue in the image of a cat carved in obsidian  has eyes made from polished garnet.  A small symbol is engraved in the base; you feel like you've seen it somewhere before.[otherwise]The dust is so thick over it that you can hardly see[end if].
 
 Understand "small" or "item/thing" as the obsidian cat when the cat is not handled. Understand "statue/figurine/garnet" as the cat.
 
@@ -213,6 +213,8 @@ Section - Lightless Shaft
 A room can be naturally dark.
 
 The Lightless Shaft is northeast of the Cave Entrance. It is naturally dark.
+
+The description of the lightless shaft is "[if lit] An otherwise unremarkable passageway, someone seems to have scrawled a message on one wall.[end if]"
 
 The graffiti is scenery in the lightless shaft.  The description of the graffiti is "Painted into the wall is a small sentence; written in haste by the look of it: [italic type]cuidado la maldicion![roman type]"
 
