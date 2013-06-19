@@ -202,6 +202,9 @@ Section - Cave Entrance
 The Cave Entrance is a room. "Through the narrow opening to the west, choked by fallen masonry and choking vines, you can glimpse the sky. The remnants of a wagon wheel rises from the dirt; the wood is dark with rot. To the northeast, where the cliff wall breaks surface, is a dark slash of an opening into the rock." 
 
 The wagon wheel is scenery in Cave Entrance.  The description of the wagon wheel is "The wood is dark with rot."
+Understand "wood" as the wagon wheel while in Cave Entrance.
+
+The fallen masonry is scenery in Cave Entrance.  The description of the fallen masonry is "Chunks of granite, strewn about."
 
 The obsidian cat is in the Cave Entrance. "A small item lies in the dust." 
 
