@@ -197,6 +197,9 @@ Every turn while in Perilous Perch:
 
 Instead of going inside in Perilous Perch: try going east.
 
+[to catch "open crack with sword"]
+Instead of unlocking the closed passage with something, try inserting the second noun into the noun.
+
 Section - hidden passage 
 
 The hidden passage is a scenery door. It is unopenable and closed. The printed name of the passage is "[if the passage is open]passage[otherwise]crack[end if]". 
@@ -323,6 +326,12 @@ Section - Stone steps
 Stone Steps are southeast of Lightless Shaft.
 
 the description of Stone Steps is "This is a tunnel carved into stone.  The tunnel slopes sharply downwards to the southeast, but crude stone steps have been carved to assist with footing."
+
+Stone Steps is naturally dark.
+
+The rock staircase is scenery in Stone Steps. The description is "Cut into the solid rock of the cave with some rough tool." Understand "stone/carved/rough/crude" and "stairs/staircase/steps/step" as the staircase.
+
+The dark niche is a fixed in place container in Stone Steps. "A small niche has been cut into the wall at this point." Understand "small" as the niche.
 
 Section - Forgotten Cache
 
