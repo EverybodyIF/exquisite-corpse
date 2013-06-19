@@ -2,33 +2,6 @@
 
 Include Conversation Responses by Eric Eve.
 
-Section - scenes
-
-Overture is a scene. Overture begins when play begins.
-
-After waiting during Overture: say "[one of]You fidget as you wait[or]Time passes in silence[or]You glance uneasily about as the seconds creep by[or]You wait, restless[at random]."
-
-Section - memscribing 
-
-Memscribing is an action applying to one thing. Understand "memscribe [something]" as memscribing.
-
-Definition: something is susceptible: if it is a person, yes.
-
-Instead of memscribing the child, say "Far too dangerous to consider with any infant, let alone your own blood." 
-Instead of memscribing yourself, say "Memscribing yourself? You wouldn't even know where to begin."
-Instead of memscribing something not susceptible, say "[The noun] can't be worked by memscription."
-
-Section - rules etc
-
-A person can be neutral, friendly or angry.  A person is usually neutral.
-
-Instead of singing: say "When all this is over, you'll sing, sing like a bird that is no longer caged. But not yet."
-
-Rule for choosing notable locale objects (this is the tweaked locale priority rule): 
-	repeat with item running through things in location: 
-		if the item is fixed in place, set the locale priority of the item to 4;
-		else set the locale priority of the item to 5.
-		
 Section - physical contact
 
 To decide whether action implies physical contact: 
@@ -65,6 +38,35 @@ carry out listing enterables: say enterable list.
 listing exits is an action applying to nothing.
 Understand "exits" as listing exits.
 carry out listing exits: say "[exit list][enterable list]";
+
+Section - scenes
+
+Overture is a scene. Overture begins when play begins.
+
+After waiting during Overture: say "[one of]You fidget as you wait[or]Time passes in silence[or]You glance uneasily about as the seconds creep by[or]You wait, restless[at random]."
+
+Section - memscribing 
+
+Memscribing is an action applying to one thing. Understand "memscribe [something]" as memscribing.
+
+Definition: something is susceptible: if it is a person, yes.
+
+Instead of memscribing the child, say "Far too dangerous to consider with any infant, let alone your own blood." 
+Instead of memscribing yourself, say "Memscribing yourself? You wouldn't even know where to begin."
+Instead of memscribing something not susceptible, say "[The noun] can't be worked by memscription."
+
+Section - rules etc
+
+A person can be neutral, friendly or angry.  A person is usually neutral.
+
+Instead of singing: say "When all this is over, you'll sing, sing like a bird that is no longer caged. But not yet."
+
+Section - notable locale objects 
+
+Rule for choosing notable locale objects (this is the tweaked locale priority rule): 
+	repeat with item running through things in location: 
+		if the item is fixed in place, set the locale priority of the item to 4;
+		else set the locale priority of the item to 5.
 
 Section - the player 
 
@@ -338,6 +340,12 @@ Instead of going northeast from the Cave Entrance when the brand is not lit, say
 
 Instead of going southwest from the Lightless Shaft when the brand is not lit, say "You made it this far with its inanimate assistance, so why not continue your travels for a while with the Obsidian Cat in your retinue?"
 
+Section - Forgotten Cache
+
+Forgotten Cache is south of Lightless Shaft. "The tunnel swells into a tall, unhospitable-looking chamber. Here, foam-stone bracings and metal reinforcements have replaced the improvised look of the other tunnels. The floor is a perfectly smooth, dull grey. From here, you can go north back to the tunnel shaft."
+
+The Forgotten Cache is naturally dark.
+
 Section - Stone steps
 
 Stone Steps are southeast of Lightless Shaft.
@@ -349,12 +357,6 @@ Stone Steps is naturally dark.
 The rock staircase is scenery in Stone Steps. The description is "Cut into the solid rock of the cave with some rough tool." Understand "stone/carved/rough/crude" and "stairs/staircase/steps/step" as the staircase.
 
 The dark niche is a fixed in place container in Stone Steps. "A small niche has been cut into the wall at this point." Understand "small" as the niche.
-
-Section - Forgotten Cache
-
-Forgotten Cache is south of Lightless Shaft. "The tunnel swells into a tall, unhospitable-looking chamber. Here, foam-stone bracings and metal reinforcements have replaced the improvised look of the other tunnels. The floor is a perfectly smooth, dull grey. From here, you can go north back to the tunnel shaft."
-
-The Forgotten Cache is naturally dark.
 
 Section - Abandoned Crates
 
@@ -400,11 +402,4 @@ Section - test - Not for release
 test cave with "ne / x crack / i / put blade in crack / look / enter tunnel / x body / x hands / open hands / look / take item / x shoulder / x brand / ne / x brand" in the rocky ledge
 
 test walkthru with "test cave"
-
-
-
-
-
-
-
 
