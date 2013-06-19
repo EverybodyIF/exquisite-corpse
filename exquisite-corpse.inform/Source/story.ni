@@ -16,6 +16,33 @@ A person can be neutral, friendly or angry.  A person is usually neutral.
 
 Instead of singing: say "When all this is over, you'll sing, sing like a bird that is no longer caged. But not yet."
 
+section listing exits and enterables 
+
+To say enterable list: 
+	if an enterable container (called playerbox) encloses the player:
+		say "You could try exiting from [the playerbox].";
+	otherwise:
+		let L be the list of enterable things in the location of the player;
+		if L is not empty:
+			say "You could try entering [L with definite articles]. ";
+
+To say exit list: 
+	say "Obvious exits from [the location]: [line break]";
+	repeat with way running through directions: 
+		let place be the room way from the location; 
+		if place is a visited room:
+			say "[way] to [the place][line break]";
+		otherwise if place is a room:
+			say "[way][line break]";
+
+listing enterables is an action applying to nothing. 
+Understand "enterables" as listing enterables.
+carry out listing enterables: say enterable list.
+
+listing exits is an action applying to nothing.
+Understand "exits" as listing exits.
+carry out listing exits: say "[exit list][enterable list]";
+
 section - the player 
 
 The player is female. 
