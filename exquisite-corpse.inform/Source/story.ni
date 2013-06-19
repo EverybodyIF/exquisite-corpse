@@ -79,8 +79,8 @@ Check summoning when the noun is a person:
 		stop the action;
 		
 Report summoning a person:
-   if the person is not visible, say "[The noun] is suddenly present with you, looking around counfusedly.";
-   otherwise say "There's no repsonse from [the noun]."
+	if the person is not visible, say "[The noun] is suddenly present with you, looking around confusedly.";
+	otherwise say "There's no response from [the noun]."
    
 After summoning Sgt Duffy:
    if Sgt Duffy was not visible, say "[noun] steps into the room. [one of]'You called?'[or]'What can I do ya for?'[or]'Here I am.'[or]'All yours.[or]'Yes, sir.'[then at random]";
@@ -128,6 +128,14 @@ Instead of going down while in Rocky Ledge:
 Section - Perilous Perch
 
 The Perilous Perch is northeast of Rocky Ledge. "From here, you can see the entire harbor, but the wind is so treacherous that your concentration is mainly spent on staying afoot. The [if the passage is open]only path[otherwise]path you came by[end if] leads down to the southwest but [if the passage is open]now a tunnel yawns[otherwise]a small crack can be seen[end if] in the rock face behind you."
+
+The shorebirds are scenery in the perilous perch. Understand "bird/birds/gull/gulls/cries/whooping/cawing/sound/sounds", "piercing cries" and "shore bird/birds" as the shorebirds.
+
+Before doing anything other than listening to the shorebirds:
+say "You can't see the birds at the moment, but you can hear their piercing cries from the harbour." instead.
+
+Before listening to the shorebirds:
+say "[one of]You've never liked those gulls, always whooping and cawing at a their own jokes[or]You recoil from the sound of the shorebirds enjoying their freedom[stopping]." instead.
 
 Every turn while in Perilous Perch:
 	say "[one of]The wind screams in your ears for a moment, then dies down.[or]The sounds of shorebirds can be heard from the harbor.[or]You think you hear voices, but you hope you are mistaken.[or]The wind whistles ominously around the cliffs.[or]You hear the sound of a solitary gull.[or]You think you hear movement down toward the rocky ledge.[purely at random]"
