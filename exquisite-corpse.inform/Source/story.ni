@@ -324,9 +324,22 @@ Forgotten Cache is south of Lightless Shaft. "The tunnel swells into a tall, unh
 
 The Forgotten Cache is naturally dark.
 
+Section - Abandoned Crates
+
 Some abandoned crates are here. "A pile of old crates are stacked in one corner, looking pitifully few compared to what the room probably held once." They are fixed in place. They are plural-named. The description is "Water has abraded the old pre-upheaval pictograms on their side, but it's definitely something produced for the military[first time]. Which is no wonder, really, given the old stories about sapper regiments making their defiant stand in this region[only]."
 
 Understand "pile" or "crate" or "pile of crates" or "pile of abandoned crates" as the abandoned crates.
+
+The abandoned crates are a openable, closed, opaque container.  A container can be locked or unlocked.  A container is usually unlocked.  The abandoned crates are locked.  
+
+The abandoned crates are an openable, closed, locked container.
+
+Check opening the abandoned crates (this is the can't open the locked abandoned crates rule):
+	if the abandoned crates are locked:
+		say "[one of]They don't seem to open easily[or]You can't find any place to get a good grip[or]Even after all this time, the crates are still sealed tightly[at random]." instead.
+		
+Report opening the abandoned crates (this is the report opening the abandoned crates rule):
+	say "The side of a crate grudgingly yields to your efforts and comes off with a loud squeal." instead.
 
 Section - Sgt Duffy NPC
 
