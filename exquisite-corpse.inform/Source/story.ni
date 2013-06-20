@@ -66,6 +66,8 @@ Section - some loose ends
 
 A person can be neutral, friendly or angry.  A person is usually neutral.
 
+Understand "jump off" as jumping.
+
 Instead of singing: say "When all this is over, you'll sing, sing like a bird that is no longer caged. But not yet."
 
 Section - the player 
@@ -76,17 +78,13 @@ Instead of examining the player: say "You are twenty-four, obviously pregnant, a
 
 Section - the child 
 
-The child is part of the player. Understand "baby" and "daughter" and "foetus" and "fetus" as the child. The description of the child is "It's a girl, according to the doctor who discussed the 20-week echo with you. When he heard that, Jack tried to force you to have an abortion. That will never happen.[paragraph break]You rub your belly and imagine a newborn cradled in your arms. She would be perfect, of course. Beautiful and intelligent.".
+The child is part of the player. Understand "girl/baby/daughter/foetus/fetus/kid" as the child.. The description of the child is "It's a girl, according to the doctor who discussed the 20-week echo with you. When he heard that, Jack tried to force you to have an abortion. That will never happen.[paragraph break]You rub your belly and imagine a newborn cradled in your arms. She would be perfect, of course. Beautiful and intelligent.".
 
 The child is a woman.
 
-Understand "girl" and "baby" and "daughter" and "foetus" and "fetus" as the child.
-Understand "kid" as the child.
-
 Instead of summoning or dropping the child, say "Its time has not come yet.".
-
-Instead of attacking the child:
-   say "Never".
+Instead of attacking the child: say "Never".
+Instead of dismissing the child: say "Never".
 
 Instead of pushing or pulling or taking when the noun is the child, try touching the child.
 
@@ -184,21 +182,16 @@ Instead of listening to a room when the wind is in the location: try listening t
 
 Section - Rocky Ledge
 
-Rocky Ledge is a room. The player is in Rocky Ledge.
+Rocky Ledge is a room. "Wind whips about your ears here on this rocky ledge.  The ledge winds upwards to the northeast and down to the southwest.  You feel you shouldn't tarry too long here."
+
+The player is in Rocky Ledge.
 
 Instead of jumping in Rocky Ledge or jumping in Perilous Perch, say "While death [italic type]may[roman type] be preferable to what Jack and his gang will do to you if they catch you, you have not yet lost all hope of escape.".
-
-The description of Rocky Ledge is "Wind whips about your ears here on this rocky ledge.  The ledge winds upwards to the northeast and down to the southwest.  You feel you shouldn't tarry too long here."
-
-Instead of jumping in Rocky Ledge: say "While death [italic type]may[roman type] be preferable to what Jack and his gang will do to you if they catch you, you have not yet lost all hope of escape.".
 
 Instead of going up while in Rocky Ledge:
 	try going northeast.
 
 Instead of going southwest in Rocky Ledge, say "Back to Jack and his gang? No."
-
-Instead of going down while in Rocky Ledge: 
-	try jumping.
 	
 Instead of going down while in Rocky Ledge:
    try going southwest.
@@ -210,10 +203,10 @@ The Perilous Perch is northeast of Rocky Ledge. "From here, you can see the enti
 The shorebirds are scenery in the perilous perch. Understand "bird/birds/gull/gulls/cries/whooping/cawing/sound/sounds", "piercing cries" and "shore bird/birds" as the shorebirds.
 
 Before doing anything other than listening to the shorebirds:
-say "You can't see the birds at the moment, but you can hear their piercing cries from the harbour." instead.
+	say "You can't see the birds at the moment, but you can hear their piercing cries from the harbour." instead.
 
 Before listening to the shorebirds:
-say "[one of]You've never liked those gulls, always whooping and cawing at a their own jokes[or]You recoil from the sound of the shorebirds enjoying their freedom[stopping]." instead.
+	say "[one of]You've never liked those gulls, always whooping and cawing at a their own jokes[or]You recoil from the sound of the shorebirds enjoying their freedom[stopping]." instead.
 
 Every turn while in Perilous Perch:
 	say "[one of]The wind screams in your ears for a moment, then dies down.[or]The sounds of shorebirds can be heard from the harbor.[or]You think you hear voices, but you hope you are mistaken.[or]The wind whistles ominously around the cliffs.[or]You hear the sound of a solitary gull.[or]You think you hear movement down toward the rocky ledge.[purely at random]"
