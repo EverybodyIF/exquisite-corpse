@@ -265,18 +265,7 @@ The desiccated skeleton is in the Cave Entrance. It is fixed in place. The initi
 
 Understand "corpse/body/remains/remnants/bones/carcass/sinew/sinews" as the skeleton.
 
-Some withered hands are part of the skeleton. The hands are plural-named and scenery. The hands can be open or closed. The hands are closed. The description is "[if the hands are closed]They are pressed tight over the body's breast bone[otherwise]Broken, the hands are fixed in impotent supplication[end if]." Understand "fingers/hand/grip/grasp" as the hands.
-
-Instead of doing something other than examining or summoning or memscribing to the hands for the first time:
-   say "You pry the fingers apart, eliciting a noise like that of cracking walnuts from the hapless skeleton. Something slips from its grasp and falls to the ground.";
-   now the hands are open;
-   now the obsidian cat is in the Cave Entrance.
-
-instead of searching the skeleton:
-   say "You carefully inspect the remains but find nothing more of interest.";
-   
-instead of searching the skeleton when the hands are closed:
-   say "The body is little but dry bones, and can hardly hide anything. Except... is there something in the hands?";
+The smock is scenery in the Cave Entrance. Understand "tatters" as the smock.
 
 Instead of doing something to the hands when the action implies physical contact for the first time:
    say "You pry the fingers apart with a noise like that of cracking walnuts. Something slips from its grasp and falls to the ground.";
@@ -286,11 +275,22 @@ Instead of doing something to the hands when the action implies physical contact
 Instead of doing something to the skeleton when the action implies physical contact:
    say "The skeleton is firmly wedged under a mountain of masonry, and will not budge."
 
+instead of searching the skeleton:
+   say "You carefully inspect the remains but find nothing more of interest.";
+   
+instead of searching the skeleton when the hands are closed:
+   say "The body is little but dry bones, and can hardly hide anything. Except... is there something in the hands?";
+
+Instead of doing something other than examining or summoning or memscribing to the hands for the first time:
+   say "You pry the fingers apart, eliciting a noise like that of cracking walnuts from the hapless skeleton. Something slips from its grasp and falls to the ground.";
+   now the hands are open;
+   now the obsidian cat is in the Cave Entrance.
+
 Some fangs are part of the skeleton. The fangs are plural-named and scenery. The description is "The dead skull almost seems to be smiling, with two inch-long fangs extending from the upper jaw. They tell you two things: that the body once was a man -- and that he was of your kind. Women don't have fangs, nor do human men (like Jack).".
 
 Understand "fang/jaw" as the fangs.
 
-The smock is scenery in the Cave Entrance. Understand "tatters" as the smock.
+Some withered hands are part of the skeleton. The hands are plural-named and scenery. The hands can be open or closed. The hands are closed. The description is "[if the hands are closed]They are pressed tight over the body's breast bone[otherwise]Broken, the hands are fixed in impotent supplication[end if]." Understand "fingers/hand/grip/grasp" as the hands.
 
 Instead of memscribing something part of the skeleton, try memscribing the skeleton.
 
