@@ -172,10 +172,10 @@ The harbor is a backdrop. The description of the harbor is "Piers and warehouses
 Instead of doing anything other than examining with the harbor, say "You can barely even make out details at this distance."
 
 The wind is a backdrop. The wind is in the Perilous Perch and the Rocky Ledge. The description of the wind is "This wind is unnatural: fast, but not overwhelmingly so; perceivable with every sense, yet repulsive to the same."
-Instead of listening to the wind: say "The wind wails painfully over a deep minor melody."
-Instead of listening to a room when the wind is in the location: try listening to the wind.
 
-[Body]
+Instead of listening to the wind: say "The wind wails painfully over a deep minor melody."
+
+Instead of listening to a room when the wind is in the location: try listening to the wind.
 
 Section - Rocky Ledge
 
