@@ -1,18 +1,16 @@
 "Exquisite Corpse (Working Title)" by Various Authors
 
-[Rules and stuff]
-
 Include Conversation Responses by Eric Eve.
 
 Section - physical contact
 
-To decide whether action implies physical contact:
-if the current action is listening to something, no;
-if the current action is memscribing something, no;
-if the current action is summoning something, no;
-if the action requires a touchable noun, yes;
-if the action requires a touchable second noun, yes;
-no.
+To decide whether action implies physical contact: 
+   if the current action is listening to something, no;
+   if the current action is memscribing something, no;
+   if the current action is summoning something, no;
+   if the action requires a touchable noun, yes; 
+   if the action requires a touchable second noun, yes; 
+   no. 
 
 Section - listing exits and enterables 
 
@@ -23,7 +21,7 @@ To say enterable list:
 		let L be the list of enterable things in the location of the player;
 		if L is not empty:
 			say "You could try entering [L with definite articles]. ";
-				
+
 To say exit list: 
 	say "Obvious exits from [the location]: [line break]";
 	repeat with way running through directions: 
@@ -33,7 +31,7 @@ To say exit list:
 		otherwise if place is a room:
 			say "[way][line break]";
 
-listing enterables is an action applying to nothing.
+listing enterables is an action applying to nothing. 
 Understand "enterables" as listing enterables.
 carry out listing enterables: say enterable list.
 
@@ -60,7 +58,7 @@ Memscribing is an action applying to one thing. Understand "memscribe [something
 
 Definition: something is susceptible: if it is a person, yes.
 
-Instead of memscribing the child, say "Far too dangerous to consider with any infant, let alone your own blood."
+Instead of memscribing the child, say "Far too dangerous to consider with any infant, let alone your own blood." 
 Instead of memscribing yourself, say "Memscribing yourself? You wouldn't even know where to begin."
 Instead of memscribing something not susceptible, say "[The noun] can't be affected by memscription."
 
@@ -74,26 +72,34 @@ Instead of singing: say "When all this is over, you'll sing, sing like a bird th
 
 Section - the player 
 
-The player is female.
+The player is female. 
 
 Instead of examining the player: say "You are twenty-four, obviously pregnant, and marked by a weird[if the brand is lit and the location is naturally dark], glowing[end if] brand on your left shoulder."
 
 Section - the child 
 
 The child is part of the player. Understand "girl/baby/daughter/foetus/fetus/kid" as the child. The description of the child is "It's a girl, according to the doctor who discussed the 20-week echo with you. When he heard that, Jack tried to force you to have an abortion. That will never happen.[paragraph break]You rub your belly and imagine a newborn cradled in your arms. She would be perfect, of course. Beautiful and intelligent."
+
 The child is a woman.
-Instead of summoning the child, say "Its time has not come yet."
-Instead of attacking the child, say "Never."
-Instead of dismissing the child, say "Never."
+
+Instead of summoning or dropping the child, say "Its time has not come yet."
+Instead of attacking the child: say "Never."
+Instead of dismissing the child: say "Never."
 
 Instead of pushing or pulling or taking when the noun is the child, try touching the child.
+
 After touching the child: say "You lay a hand on your belly[if a random chance of 1 in 6 succeeds].[paragraph break]A kick! You're sure you felt [one of]her[or]another[stopping] kick just now[end if]." Understand "belly/stomach/tummy" as the child while the child is part of the player.
 
 Section - shoulder and brand
 
 A shoulder is part of the player. The description is "On your right shoulder is an incomplete brand[if the brand is lit and the location is naturally dark], which blazes with a weird light[end if]."
 
-An incomplete brand is part of the player. The description is "Craning your neck, you look down to see the edges of the brand, bleeding but flawed, mercifully incomplete[if the brand is lit and the location is naturally dark]. You wouldn't see it well, except for the dull, flickering light that smolders deep within the wound[end if]." Understand "weird" as the brand.
+An incomplete brand is part of the player. The description is "Craning your neck, you look down to see the edges of the brand, bleeding but flawed, mercifully incomplete[if the brand is lit and the location is naturally dark]. You wouldn't see it well, except for the dull, flickering light that smolders deep within the wound[end if].".
+
+Understand "weird" as the brand.
+
+After looking when the brand is lit and the location is naturally dark:
+say "Your brand seems to be giving off an eerie sort of light."
 
 Section - the player's possessions
 
@@ -286,9 +292,6 @@ say "[one of]You carefully lift the thing and brush it off. It's a small statue,
 After dropping or inserting when the noun is the obsidian cat (this is the letting go of the cat figurine rule):
 say "The instant the figurine leaves your touch, the itching stops.";
 now the brand is not lit.
-
-After looking when the brand is lit and the location is naturally dark:
-say "Your brand seems to be giving off an eerie sort of light."
 
 Section - Lightless Shaft
 
