@@ -52,6 +52,8 @@ Section - scenes
 
 Overture is a scene. Overture begins when play begins.
 
+After waiting during Overture: say "[one of]You fidget as you wait[or]Time passes in silence[or]You glance uneasily about as the seconds creep by[or]You wait, restless[at random]."
+
 Section - memscribing 
 
 Memscribing is an action applying to one thing. Understand "memscribe [something]" as memscribing.
