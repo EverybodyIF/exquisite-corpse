@@ -193,7 +193,6 @@ Instead of going southwest in Rocky Ledge, say "Back to Jack and his gang? No."
 Instead of going down while in Rocky Ledge:
 	try going southwest.
 
-
 Section - Perilous Perch
 
 Perilous Perch is northeast of Rocky Ledge. "From here, you can see the entire harbor, but the wind is so treacherous that your concentration is mainly spent on staying afoot. The [if the passage is open]only path[otherwise]path you came by[end if] leads down to the southwest but [if the passage is open]now a tunnel yawns[otherwise]a small crack can be seen[end if] in the rock face behind you."
@@ -204,13 +203,17 @@ say "You can't see the birds at the moment, but you can hear their piercing crie
 Before listening to the shorebirds:
 say "[one of]You've never liked those gulls, always whooping and cawing at a their own jokes[or]You recoil from the sound of the shorebirds enjoying their freedom[stopping]." instead.
 
-Every turn while in Perilous Perch, say "[one of]The wind screams in your ears for a moment, then dies down.[or]The sounds of shorebirds can be heard from the harbor.[or]You think you hear voices, but you hope you are mistaken.[or]The wind whistles ominously around the cliffs.[or]You hear the sound of a solitary gull.[or]You think you hear movement down toward the rocky ledge.[purely at random]"
+Every turn while in Perilous Perch:
+	say "[one of]The wind screams in your ears for a moment, then dies down.[or]The sounds of shorebirds can be heard from the harbor.[or]You think you hear voices, but you hope you are mistaken.[or]The wind whistles ominously around the cliffs.[or]You hear the sound of a solitary gull.[or]You think you hear movement down toward the rocky ledge.[purely at random]"
 
 Instead of going down while in Perilous Perch:
 try going southwest.
 
 Instead of entering the passage: try going east.
 Instead of going inside in Perilous Perch: try going east.
+
+[to catch "open crack with sword"]
+Instead of unlocking the closed passage with something, try inserting the second noun into the noun.
 
 Section - hidden passage 
 
