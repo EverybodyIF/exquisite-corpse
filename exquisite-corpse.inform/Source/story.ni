@@ -259,27 +259,6 @@ Instead of cutting the vines, say "There is already a narrow opening through the
 
 The wagon wheel is scenery in Cave Entrance. The description of the wagon wheel is "The wood is dark with rot." Understand "wood" as the wagon wheel.
 
-Section - Obsidian Cat 
-
-The obsidian cat is in the Cave Entrance. "A small item lies in the dust." 
-
-The description of the obsidian cat is "[if the cat is handled]Standing about four inches tall, this small statue in the image of a cat carved in obsidian  has eyes made from polished garnet.  A small symbol is engraved in the base; you feel like you've seen it somewhere before.[otherwise]The dust is so thick over it that you can hardly see[end if]".
-
-Understand "small" or "item/thing" as the obsidian cat when the cat is not handled. Understand "statue/figurine/garnet" as the cat.
-
-After taking the obsidian cat: 
-   now the brand is lit;
-   say "[one of]You carefully lift the thing and brush it off. It's a small statue, intricately carved in vitreous stone.[paragraph break]You feel your shoulder beginning to itch[or]You pick up the statue again. Once more, there's the itching[or]You take the statue, feeling the expected itch[stopping]."
-
-After dropping or inserting when the noun is the obsidian cat (this is the letting go of the cat figurine rule): 
-   say "The instant the figurine leaves your touch, the itching stops.";
-   now the brand is not lit.
-
-Instead of dropping the obsidian cat when the location is somewhere naturally dark, say "[one of]You let go of the figurine and are immediately plunged into utter darkness. Luckily, you can tell where it fell by the sound it made. The instant your groping fingers brush across the small statue, you feel the telltale itching of your scar return as it flares to light again.[paragraph break]That was close[or]You'd rather not blind yourself again if you could help it[stopping]."
-
-Instead of rubbing the obsidian cat when the obsidian cat is not handled:
-   try taking the obsidian cat.
-
 Section - skeleton
 
 The desiccated skeleton is in the Cave Entrance. It is fixed in place. The initial appearance is "Half-buried by rubble you see the broken remains of a body." The description is "It looks to have been dead for a long time. Under the tatters of its smock, little but bones and sinew remains. Whoever it was must have died in this unfortunate position, head thrown back, fangs bared, hands cradling one another against the chest." 
@@ -316,6 +295,27 @@ The smock is scenery in the Cave Entrance. Understand "tatters" as the smock.
 Instead of memscribing something part of the skeleton, try memscribing the skeleton.
 
 Instead of memscribing the skeleton, say "As the mind passes into death so does it cross the point of memscription, no matter how deft the practitioner."
+
+Section - Obsidian Cat 
+
+The obsidian cat is in the Cave Entrance. "A small item lies in the dust." 
+
+The description of the obsidian cat is "[if the cat is handled]Standing about four inches tall, this small statue in the image of a cat carved in obsidian  has eyes made from polished garnet.  A small symbol is engraved in the base; you feel like you've seen it somewhere before.[otherwise]The dust is so thick over it that you can hardly see[end if]".
+
+Understand "small" or "item/thing" as the obsidian cat when the cat is not handled. Understand "statue/figurine/garnet" as the cat.
+
+After taking the obsidian cat: 
+   now the brand is lit;
+   say "[one of]You carefully lift the thing and brush it off. It's a small statue, intricately carved in vitreous stone.[paragraph break]You feel your shoulder beginning to itch[or]You pick up the statue again. Once more, there's the itching[or]You take the statue, feeling the expected itch[stopping]."
+
+After dropping or inserting when the noun is the obsidian cat (this is the letting go of the cat figurine rule): 
+   say "The instant the figurine leaves your touch, the itching stops.";
+   now the brand is not lit.
+
+Instead of dropping the obsidian cat when the location is somewhere naturally dark, say "[one of]You let go of the figurine and are immediately plunged into utter darkness. Luckily, you can tell where it fell by the sound it made. The instant your groping fingers brush across the small statue, you feel the telltale itching of your scar return as it flares to light again.[paragraph break]That was close[or]You'd rather not blind yourself again if you could help it[stopping]."
+
+Instead of rubbing the obsidian cat when the obsidian cat is not handled:
+   try taking the obsidian cat.
 
 Section - Lightless Shaft
 
