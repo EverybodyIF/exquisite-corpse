@@ -217,25 +217,23 @@ Instead of unlocking the closed passage with something, try inserting the second
 
 Section - hidden passage 
 
-The hidden passage is a scenery door. It is unopenable and closed. The printed name of the passage is "[if the passage is open]passage[otherwise]crack[end if]".
+The hidden passage is a scenery door. It is unopenable and closed. The printed name of the passage is "[if the passage is open]passage[otherwise]crack[end if]". 
 The description of the hidden passage is "[if the passage is closed]The crack is narrow in the otherwise dust-covered rock[otherwise]The darkness in this passage is compact[end if]."
 
 The hidden passage is east of the Perilous Perch and west of the Cave Entrance. Understand "crack/crevice/opening/hole" as the passage when the passage is closed. Understand "tunnel" as the passage.
 
 Instead of trying inserting something into a closed passage, say "The crack is too narrow to accommodate it."
 Instead of trying inserting the blade into a closed passage:
-say "With a shower of dirt you work your mother's blade into the crack. The crack's edges seem more yielding than rock should be, and the blade suddenly slips into open space. Could it be?[paragraph break]Within a couple of minutes you have cleared away the vines and dirt surrounding the crack to reveal a narrow dark passage to the east.";
-now the passage is open.
+  say "With a shower of dirt you work your mother's blade into the crack. The crack's edges seem more yielding than rock should be, and the blade suddenly slips into open space. Could it be?[paragraph break]Within a couple of minutes you have cleared away the vines and dirt surrounding the crack to reveal a narrow dark passage to the east.";
+   now the passage is open.
 Instead trying opening a closed passage: say "You press yourself against the crack, but it is far too small for you to enter."
-Instead of unlocking the closed passage with something, try inserting the second noun into the noun.
 
 This is the silenced can't go through undescribed doors rule:
-if the door gone through is the passage and the passage is closed begin;
-silently try the actor opening the passage;
-stop the action;
-otherwise;
-abide by the can't go through undescribed doors rule;
-end if.
+	if the door gone through is the passage and the passage is closed:
+		silently try the actor opening the passage;
+		stop the action;
+	otherwise:
+		abide by the can't go through undescribed doors rule.
 
 The silenced can't go through undescribed doors rule is listed instead of the can't go through undescribed doors rule in the check going rules.
 
