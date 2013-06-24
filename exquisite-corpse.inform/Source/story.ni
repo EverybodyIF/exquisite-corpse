@@ -239,8 +239,6 @@ This is the silenced can't go through undescribed doors rule:
 
 The silenced can't go through undescribed doors rule is listed instead of the can't go through undescribed doors rule in the check going rules.
 
-Instead of entering the passage: try going east.
-
 Section - kataphraktos 
 
 The kataphraktos is a person. The description is "Squat and sightless, the kataphraktos does not move beyond the slow, rippling clicks of its scales. You still feel its attention on you, passionless and focused." The kataphraktos carries a glaive and a mandate. Understand "cataphract" or "guard" as the kataphraktos.
