@@ -1,5 +1,7 @@
 "Exquisite Corpse (Working Title)" by Various Authors
 
+[This is the github version with prehistory]
+
 Include Conversation Responses by Eric Eve.
 
 Section - physical contact
@@ -64,7 +66,7 @@ Instead of memscribing something not susceptible, say "[The noun] can't be affec
 
 Section - some loose ends
 
-A person can be neutral, friendly or angry.  A person is usually neutral.
+A person can be neutral, friendly or angry. A person is usually neutral.
 
 Understand "jump off" as jumping.
 
@@ -78,13 +80,13 @@ Instead of examining the player: say "You are twenty-four, obviously pregnant, a
 
 Section - the child 
 
-The child is part of the player. Understand "girl/baby/daughter/foetus/fetus/kid" as the child.. The description of the child is "It's a girl, according to the doctor who discussed the 20-week echo with you. When he heard that, Jack tried to force you to have an abortion. That will never happen.[paragraph break]You rub your belly and imagine a newborn cradled in your arms. She would be perfect, of course. Beautiful and intelligent.".
+The child is part of the player. Understand "girl/baby/daughter/foetus/fetus/kid" as the child. The description of the child is "It's a girl, according to the doctor who discussed the 20-week echo with you. When he heard that, Jack tried to force you to have an abortion. That will never happen.[paragraph break]You rub your belly and imagine a newborn cradled in your arms. She would be perfect, of course. Beautiful and intelligent."
 
 The child is a woman.
 
-Instead of summoning or dropping the child, say "Its time has not come yet.".
-Instead of attacking the child: say "Never".
-Instead of dismissing the child: say "Never".
+Instead of summoning or dropping the child, say "Its time has not come yet."
+Instead of attacking the child: say "Never."
+Instead of dismissing the child: say "Never."
 
 Instead of pushing or pulling or taking when the noun is the child, try touching the child.
 
