@@ -60,7 +60,7 @@ Definition: something is susceptible: if it is a person, yes.
 
 Instead of memscribing the child, say "Far too dangerous to consider with any infant, let alone your own blood." 
 Instead of memscribing yourself, say "Memscribing yourself? You wouldn't even know where to begin."
-Instead of memscribing something not susceptible, say "[The noun] can't be worked by memscription."
+Instead of memscribing something not susceptible, say "[The noun] can't be affected by memscription."
 
 Section - some loose ends
 
