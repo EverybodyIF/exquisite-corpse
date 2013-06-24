@@ -96,16 +96,16 @@ Section - shoulder and brand
 
 A shoulder is part of the player. The description is "On your right shoulder is an incomplete brand[if the brand is lit and the location is naturally dark], which blazes with a weird light[end if]."
 
-An incomplete brand is part of the player. The description is "Craning your neck, you look down to see the edges of the brand, bleeding but flawed, mercifully incomplete[if the brand is lit and the location is naturally dark]. You wouldn't see it well, except for the dull, flickering light that smolders deep within the wound[end if]."
+An incomplete brand is part of the player. The description is "Craning your neck, you look down to see the edges of the brand, bleeding but flawed, mercifully incomplete[if the brand is lit and the location is naturally dark]. You wouldn't see it well, except for the dull, flickering light that smolders deep within the wound[end if].".
 
 Understand "weird" as the brand.
 
 After looking when the brand is lit and the location is naturally dark:
-   say "Your brand seems to be giving off an eerie sort of light."
+say "Your brand seems to be giving off an eerie sort of light."
 
-section - the player's possessions
+Section - the player's possessions
 
-The player carries a short blade. The description of the blade is "It's one of the few things your momma ever gave you."
+The player carries a short blade. The description of the short blade is "It's one of the few things your momma ever gave you."
 Instead of eating the short blade: say "Only the men in Jack's gang were expected to practice sword swallowing."
 Understand "sword/weapon/knife" as the blade.
 
