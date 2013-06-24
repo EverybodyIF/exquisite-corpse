@@ -167,10 +167,9 @@ carry out dismissing:
 Section - backdrops 
 
 The beacon is a backdrop. The description is "Far to the west, sunset gilds the metal spine of the pharos." It is in the Perilous Perch and the Rocky Ledge. Understand "tower/pharos/lighthouse" or "great tower/pharos/lighthouse" as the beacon.
-
 Instead of doing anything other than examining with the beacon, say "The beacon is miles distant, and you don't think it can see you. Not yet."
 
-The harbor is a backdrop. The description of the harbor is "Piers and warehouses and dormitories without number, all smeared together by the soot belching from the smokestacks. Low-slung watercraft -- ferries and sleds mostly -- flit like ants between the piers and the far-off reef moorings, out where the deepwater haulers wait. Landward, the curtain wall rises tall, its short stubby turrets menacing the sky. The great tower of the pharos overlooks them all."  It is in the Perilous Perch and the Rocky Ledge. Understand "harbour" or "city" as the harbor.
+The harbor is a backdrop. The description of the harbor is "Piers and warehouses and dormitories without number, all smeared together by the soot belching from the smokestacks. Low-slung watercraft -- ferries and sleds mostly -- flit like ants between the piers and the far-off reef moorings, out where the deepwater haulers wait. Landward, the curtain wall rises tall, its short stubby turrets menacing the sky. The great tower of the pharos overlooks them all." It is in the Perilous Perch and the Rocky Ledge. Understand "harbour" or "city" as the harbor.
 
 Instead of doing anything other than examining with the harbor, say "You can barely even make out details at this distance."
 
@@ -179,8 +178,6 @@ The wind is a backdrop. The wind is in the Perilous Perch and the Rocky Ledge. T
 Instead of listening to the wind: say "The wind wails painfully over a deep minor melody."
 
 Instead of listening to a room when the wind is in the location: try listening to the wind.
-
-[body]
 
 Section - Rocky Ledge
 
