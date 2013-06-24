@@ -112,45 +112,41 @@ Section - Summoning
 [ A character can be summoned with SUMMON Sgt Duffy ]
 [ Additional logic could be added to deal with other NPCs, or give them other tasks. ]
 
-[ Note: visible means "in scope", not necessarily in the same room ]
-
+[ Note: visible means "in scope", not necessarily in the same room  ]
 Summoning is an action applying to one visible thing. Understand "summon [any thing]" as summoning.
 
 First check summoning the player: instead say "You're already here."
 
-Instead of summoning or dropping the child, say "Its time has not come yet."
-
 Carry out summoning a person:
 	if noun is not visible: 
-		move noun to location.
-		
+		move noun to location;
+	
 Check summoning when the noun is not a person:
-if the noun is visible begin;
-say "You can't summon a thing, only a person.";
-else;
-say "That's not something you can see now.";
-end if.
-   
+	if noun is visible: 
+		say "You can't summon a thing, only a person.";
+	else:
+		say "That's not something you can see now.";
+      
 [ Add some further logic to summon other characters if necessary ]
 Check summoning when the noun is a person:
 	if noun is Sgt Duffy:
-		if noun is not visible: 
-			move noun to location;
+		continue the action;
 	else:
 		[ other code for other NPCs might go here ]
-		say "There's no response."
+		say "There's no response.";
+		stop the action;
 		
+Report summoning a person:
+	if the person is not visible, say "[The noun] is suddenly present with you, looking around confusedly.";
+	otherwise say "There's no response from [the noun]."
+   
 After summoning Sgt Duffy:
    if Sgt Duffy was not visible, say "[noun] steps into the room. [one of]'You called?'[or]'What can I do ya for?'[or]'Here I am.'[or]'All yours.[or]'Yes, sir.'[then at random]";
    otherwise say "'Dollar, I'm right here.'";
 
 Jack is a man. Instead of summoning jack: say "That's the last thing you'd do right now!"
 
-Report summoning a person:
-if the person is not visible, say "[The noun] is suddenly present with you, looking around confusedly.";
-otherwise say "There's no response from [the noun]."
-
-A person can be imaginary. A person is usually not imaginary.
+A person can be imaginary. A person is usually not imaginary. 
 
 Dismissing is an action applying to one thing. Understand "dismiss [somebody]" as dismissing.
 
@@ -161,7 +157,7 @@ check dismissing something:
 	if the noun is not an imaginary person:
 		say "[The noun] does not respond to your dismissal.";
 		stop the action;
-		
+      
 carry out dismissing:
 	say "[The noun] nods a goodbye, walks off, and is gone.";
 	now the noun is off-stage;
