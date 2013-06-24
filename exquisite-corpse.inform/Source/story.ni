@@ -179,17 +179,19 @@ Instead of listening to a room when the wind is in the location: try listening t
 
 Section - Rocky Ledge
 
-Rocky Ledge is a room. "Wind whips about your ears here on this rocky ledge. The ledge winds upwards to the northeast and down to the southwest. You feel you shouldn't tarry too long here." The player is in Rocky Ledge.
+Rocky Ledge is a room. "Wind whips about your ears here on this rocky ledge. The ledge winds upwards to the northeast and down to the southwest. You feel you shouldn't tarry too long here.".
+
+The player is in Rocky Ledge.
 
 Instead of jumping in Rocky Ledge or jumping in Perilous Perch, say "While death [italic type]may[roman type] be preferable to what Jack and his gang will do to you if they catch you, you have not yet lost all hope of escape."
 
 Instead of going up while in Rocky Ledge:
-try going northeast.
+	try going northeast.
 
 Instead of going southwest in Rocky Ledge, say "Back to Jack and his gang? No."
 
 Instead of going down while in Rocky Ledge:
-try going southwest.
+	try going southwest.
 
 
 Section - Perilous Perch
