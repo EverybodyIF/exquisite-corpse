@@ -243,24 +243,21 @@ Section - kataphraktos
 
 The kataphraktos is a person. The description is "Squat and sightless, the kataphraktos does not move beyond the slow, rippling clicks of its scales. You still feel its attention on you, passionless and focused." The kataphraktos carries a glaive and a mandate. Understand "cataphract" or "guard" as the kataphraktos.
 
-Section - Cave Entrance 
+Section - Cave Entrance
 
-The Cave Entrance is a room. "Through the narrow opening to the west, choked by fallen masonry and choking vines, you can glimpse the sky. The remnants of a wagon wheel rises from the dirt; the wood is dark with rot. To the northeast, where the cliff wall breaks surface, is a dark slash of an opening into the rock." 
-
-The wagon wheel is scenery in Cave Entrance.  The description of the wagon wheel is "The wood is dark with rot."
-Understand "wood" as the wagon wheel while in Cave Entrance.
-
-The fallen masonry is scenery in Cave Entrance.  The description of the fallen masonry is "Chunks of granite, strewn about.".
-Understand "rubble/chunks/granite" or "chunks of granite" as the fallen masonry.
-
-Some vines are scenery in Cave Entrance.
-
-Instead of cutting the vines:
-   say "There is already a narrow opening through the vines. It would not be wise to make the passage more obvious."
+The Cave Entrance is a room. "Through the narrow opening to the west, choked by fallen masonry and choking vines, you can glimpse the sky. The remnants of a wagon wheel rises from the dirt; the wood is dark with rot. To the northeast, where the cliff wall breaks surface, is a dark slash of an opening into the rock."
 
 The smock is scenery in the Cave Entrance. Understand "tatters" as the smock.
 
-Instead of going northeast from the Cave Entrance when the brand is not lit, say "Much too dark in there for you to grope about without a torch or lumin or something."
+The fallen masonry is scenery in Cave Entrance. The description of the fallen masonry is "Chunks of granite, strewn about."
+
+Understand "rubble/chunks/granite" or "chunks of granite" as the fallen masonry.
+
+Some vines are scenery in the Cave Entrance.
+
+Instead of cutting the vines, say "There is already a narrow opening through the vines. It would not be wise to make the passage more obvious."
+
+The wagon wheel is scenery in Cave Entrance. The description of the wagon wheel is "The wood is dark with rot." Understand "wood" as the wagon wheel.
 
 Section - Obsidian Cat 
 
@@ -313,6 +310,8 @@ Instead of doing something to the skeleton when the action implies physical cont
 Some fangs are part of the skeleton. The fangs are plural-named and scenery. The description is "The dead skull almost seems to be smiling, with two inch-long fangs extending from the upper jaw. They tell you two things: that the body once was a man -- and that he was of your kind. Women don't have fangs, nor do human men (like Jack).".
 
 Understand "fang/jaw" as the fangs.
+
+The smock is scenery in the Cave Entrance. Understand "tatters" as the smock.
 
 Instead of memscribing something part of the skeleton, try memscribing the skeleton.
 
