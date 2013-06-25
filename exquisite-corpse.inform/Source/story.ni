@@ -117,32 +117,26 @@ Summoning is an action applying to one visible thing. Understand "summon [any th
 
 First check summoning the player: instead say "You're already here."
 
-Carry out summoning a person:
-	if noun is not visible: 
-		move noun to location;
-	
 Check summoning when the noun is not a person:
 	if noun is visible: 
 		say "You can't summon a thing, only a person.";
 	else:
 		say "That's not something you can see now.";
-      
-[ Add some further logic to summon other characters if necessary ]
-Check summoning when the noun is a person:
-	if noun is Sgt Duffy:
-		continue the action;
-	else:
-		[ other code for other NPCs might go here ]
-		say "There's no response.";
-		stop the action;
-		
+
+check summoning a person which is not imaginary:
+	say "[The noun] does not respond to your summoning.";
+	stop the action;
+	
+check summoning a person which is in the location of the player:
+	say "You don't need to, [the noun] is already here.";
+	stop the action;
+
+Carry out summoning a person:
+	if noun is not visible: 
+		move noun to location;
+      		
 Report summoning a person:
-	if the person is not visible, say "[The noun] is suddenly present with you, looking around confusedly.";
-	otherwise say "There's no response from [the noun]."
-   
-After summoning Sgt Duffy:
-   if Sgt Duffy was not visible, say "[noun] steps into the room. [one of]'You called?'[or]'What can I do ya for?'[or]'Here I am.'[or]'All yours.[or]'Yes, sir.'[then at random]";
-   otherwise say "'Dollar, I'm right here.'";
+	say "[The noun] is suddenly present with you, looking around confusedly.";
 
 Jack is a man. Instead of summoning jack: say "That's the last thing you'd do right now!"
 
@@ -159,8 +153,10 @@ check dismissing something:
 		stop the action;
       
 carry out dismissing:
-	say "[The noun] nods a goodbye, walks off, and is gone.";
 	now the noun is off-stage;
+
+report dismissing:
+	say "[The noun] nods a goodbye, walks off, and is gone.";
 	
 Section - backdrops 
 
@@ -375,8 +371,31 @@ now Sgt Duffy is Angry.
 
 Instead of attacking Sgt Duffy, try pushing Sgt Duffy.
 
-Section - test - Not for release
+check summoning Sgt Duffy when Sgt Duffy is in the location of the player:
+	say "'Dollar, I'm right here.'";
+	stop the action.
+	
+Report summoning Sgt Duffy:
+	say "[noun] steps into the room. [one of]'You called?'[or]'What can I do ya for?'[or]'Here I am.'[or]'All yours.[or]'Yes, sir.'[then at random]" instead;
+	
+Report dismissing Sgt Duffy:
+	say "'So long, luv', says Sgt Duffy, and promptly walks away." instead.
 
-test cave with "ne / x crack / i / put blade in crack / look / enter tunnel / x body / x hands / open hands / look / take item / x shoulder / x brand / ne / x brand" in the rocky ledge
+Chapter - Testing - Not for release
 
-test walkthru with "test cave"
+Section 1 - People just for testing
+
+Mr Perfect is an imaginary man.
+
+Lucas is a man.
+
+Section 2 - tests
+
+[enters the cave, picks up the cat, ends up in lightless shaft ]
+test cave with "ne / x crack / i / put blade in crack / look / enter tunnel / x body / x hands / open hands / look / take item / x shoulder / x brand / ne / x brand" in the rocky ledge.
+
+test crates with "s / x crates"
+
+test summoning with "summon me / summon jack / summon child / summon duffy / summon the police / summon Mr Perfect / g / dismiss duffy / dismiss police / dismiss perfect".
+
+test walkthru with "test cave / test crates"
