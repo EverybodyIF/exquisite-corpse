@@ -377,6 +377,6 @@ Instead of attacking Sgt Duffy, try pushing Sgt Duffy.
 
 Section - test - Not for release
 
-test cave with "ne / x crack / i / put blade in crack / look / enter tunnel / x body / x hands / open hands / look / take item / x shoulder / x brand / ne / x brand" in the rocky ledge.
+test cave with "ne / x crack / i / put blade in crack / look / enter tunnel / x body / x hands / open hands / look / take item / x shoulder / x brand / ne / x brand" in the rocky ledge
 
-test walkthru with "test cave".
+test walkthru with "test cave"
