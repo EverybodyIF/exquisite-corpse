@@ -349,17 +349,11 @@ say "The side of a crate grudgingly yields to your efforts and comes off with a 
 
 Section - Stone steps
 
-Stone Steps are southeast of Lightless Shaft.
-
-the description of Stone Steps is "This is a tunnel carved into stone.  The tunnel slopes sharply downwards to the southeast, but crude stone steps have been carved to assist with footing."
-
-Stone Steps is naturally dark.
+Stone Steps are southeast of Lightless Shaft. It is naturally dark. "This is a tunnel carved into stone.  The tunnel slopes sharply downwards to the southeast, but crude stone steps have been carved to assist with footing."
 
 The rock staircase is scenery in Stone Steps. The description is "Cut into the solid rock of the cave with some rough tool." Understand "stone/carved/rough/crude" and "stairs/staircase/steps/step" as the staircase.
 
 The dark niche is a fixed in place container in Stone Steps. "A small niche has been cut into the wall at this point." Understand "small" as the niche.
-
-
 
 Section - Sgt Duffy NPC
 
