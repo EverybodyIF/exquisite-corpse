@@ -367,7 +367,7 @@ Greeting response for Sgt Duffy:
 response for Sgt Duffy when asked-or-told about Sgt Duffy:
    say "Sgt Duffy is not inclined to talk about himself.";
 
-Understand "Duff/duf/dufy/diffy/duggy/sargent/seargent/sarge/sergeant/cop/police/policeman", "the seargent", "the sergeant", "Seargent Duffy", "Seargeant Duffy" as Sgt Duffy.
+Understand "Duff/duf/dufy/diffy/duggy/sargent/seargent/sarge/sergeant/cop/police/policeman", "the seargent", "the sergeant", "Seargent Duffy", "Seargeant Duffy" or "police man" as Sgt Duffy.
 
 Instead of pushing Sgt Duffy:
 say "Sgt Duffy easily blocks your move. [one of]'What in blazes has gotten into you?'[or]'If you try that again, I'm gonna get angry.'[or]He glares at you coldly.[stopping]";
