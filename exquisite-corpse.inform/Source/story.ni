@@ -334,18 +334,6 @@ Section - Forgotten Cache
 
 Forgotten Cache is south of Lightless Shaft. The Forgotten Cache is naturally dark. "The tunnel swells into a tall, unhospitable-looking chamber. Here, foam-stone bracings and metal reinforcements have replaced the improvised look of the other tunnels. The floor is a perfectly smooth, dull grey. From here, you can go north back to the tunnel shaft."
 
-Section - Stone steps
-
-Stone Steps are southeast of Lightless Shaft.
-
-the description of Stone Steps is "This is a tunnel carved into stone.  The tunnel slopes sharply downwards to the southeast, but crude stone steps have been carved to assist with footing."
-
-Stone Steps is naturally dark.
-
-The rock staircase is scenery in Stone Steps. The description is "Cut into the solid rock of the cave with some rough tool." Understand "stone/carved/rough/crude" and "stairs/staircase/steps/step" as the staircase.
-
-The dark niche is a fixed in place container in Stone Steps. "A small niche has been cut into the wall at this point." Understand "small" as the niche.
-
 Section - Abandoned Crates
 
 Some abandoned crates are here. "A pile of old crates are stacked in one corner, looking pitifully few compared to what the room probably held once." They are fixed in place. They are plural-named. The description is "Water has abraded the old pre-upheaval pictograms on their side, but it's definitely something produced for the military[first time]. Which is no wonder, really, given the old stories about sapper regiments making their defiant stand in this region[only]."
@@ -362,6 +350,20 @@ Check opening the abandoned crates (this is the can't open the locked abandoned 
 		
 Report opening the abandoned crates (this is the report opening the abandoned crates rule):
 	say "The side of a crate grudgingly yields to your efforts and comes off with a loud squeal." instead.
+
+Section - Stone steps
+
+Stone Steps are southeast of Lightless Shaft.
+
+the description of Stone Steps is "This is a tunnel carved into stone.  The tunnel slopes sharply downwards to the southeast, but crude stone steps have been carved to assist with footing."
+
+Stone Steps is naturally dark.
+
+The rock staircase is scenery in Stone Steps. The description is "Cut into the solid rock of the cave with some rough tool." Understand "stone/carved/rough/crude" and "stairs/staircase/steps/step" as the staircase.
+
+The dark niche is a fixed in place container in Stone Steps. "A small niche has been cut into the wall at this point." Understand "small" as the niche.
+
+
 
 Section - Sgt Duffy NPC
 
