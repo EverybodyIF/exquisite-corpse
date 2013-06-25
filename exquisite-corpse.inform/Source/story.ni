@@ -321,19 +321,14 @@ Section - Lightless Shaft
 
 A room can be naturally dark.
 
-The Lightless Shaft is northeast of the Cave Entrance. It is naturally dark.
+The Lightless Shaft is northeast of the Cave Entrance. It is naturally dark. The description of Lightless Shaft is "Heavy timbers hold up the earth that surrounds you in this claustrophobic tunnel. There is some writing on the wall here. Passages lead southwest, south, and southeast."
 
-The description of Lightless Shaft is "Heavy timbers hold up the earth that surrounds you in this claustrophobic tunnel. There is some writing on the wall here. Passages lead southwest, south, and southeast."
-
-The graffiti is scenery in the lightless shaft.  The description of the graffiti is "Painted into the wall is a small sentence; written in haste by the look of it: [italic type]cuidado la maldicion![roman type]".
-
+The graffiti is scenery in the lightless shaft. The description of the graffiti is "Painted into the wall is a short sentence; written in haste by the look of it: [italic type]cuidado la maldicion![roman type]".
 Understand "writing" as the graffiti.
 
-Every turn while in Lightless Shaft: say "[one of]The sound of dripping water echoes around you.[or]You think you hear voices from the southwest.[or]It is eerily quiet for a moment.[purely at random]"
+Instead of going southwest from the Lightless Shaft when the brand is not lit, say "You made it this far with its inanimate assistance, so why not continue your travels for a while with the Obsidian Cat in your retinue?".
 
 Instead of going northeast from the Cave Entrance when the brand is not lit, say "Much too dark in there for you to grope about without a torch or lumin or something."
-
-Instead of going southwest from the Lightless Shaft when the brand is not lit, say "You made it this far with its inanimate assistance, so why not continue your travels for a while with the Obsidian Cat in your retinue?"
 
 Section - Forgotten Cache
 
