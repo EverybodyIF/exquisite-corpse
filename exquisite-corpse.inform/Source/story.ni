@@ -1,7 +1,5 @@
 "Exquisite Corpse (Working Title)" by Various Authors
 
-[This is the github version with prehistory]
-
 Include Conversation Responses by Eric Eve.
 
 Section - physical contact
@@ -163,7 +161,7 @@ check dismissing something:
 carry out dismissing:
 	say "[The noun] nods a goodbye, walks off, and is gone.";
 	now the noun is off-stage;
-
+	
 Section - backdrops 
 
 The beacon is a backdrop. The description is "Far to the west, sunset gilds the metal spine of the pharos." It is in the Perilous Perch and the Rocky Ledge. Understand "tower/pharos/lighthouse" or "great tower/pharos/lighthouse" as the beacon.
@@ -194,7 +192,7 @@ Instead of going southwest in Rocky Ledge, say "Back to Jack and his gang? No."
 
 Instead of going down while in Rocky Ledge:
 	try going southwest.
-	
+
 Section - Perilous Perch
 
 Perilous Perch is northeast of Rocky Ledge. "From here, you can see the entire harbor, but the wind is so treacherous that your concentration is mainly spent on staying afoot. The [if the passage is open]only path[otherwise]path you came by[end if] leads down to the southwest but [if the passage is open]now a tunnel yawns[otherwise]a small crack can be seen[end if] in the rock face behind you."
@@ -246,6 +244,8 @@ The kataphraktos is a person. The description is "Squat and sightless, the katap
 Section - Cave Entrance
 
 The Cave Entrance is a room. "Through the narrow opening to the west, choked by fallen masonry and choking vines, you can glimpse the sky. The remnants of a wagon wheel rises from the dirt; the wood is dark with rot. To the northeast, where the cliff wall breaks surface, is a dark slash of an opening into the rock."
+
+Instead of going northeast from the Cave Entrance when the brand is not lit, say "Much too dark in there for you to grope about without a torch or lumin or something."
 
 The smock is scenery in the Cave Entrance. Understand "tatters" as the smock.
 
@@ -328,7 +328,7 @@ Understand "writing" as the graffiti.
 
 Instead of going southwest from the Lightless Shaft when the brand is not lit, say "You made it this far with its inanimate assistance, so why not continue your travels for a while with the Obsidian Cat in your retinue?".
 
-Instead of going northeast from the Cave Entrance when the brand is not lit, say "Much too dark in there for you to grope about without a torch or lumin or something."
+Every turn while in Lightless Shaft: say "[one of]The sound of dripping water echoes around you.[or]You think you hear voices from the southwest.[or]It is eerily quiet for a moment.[purely at random]".
 
 Section - Forgotten Cache
 
@@ -380,4 +380,3 @@ Section - test - Not for release
 test cave with "ne / x crack / i / put blade in crack / look / enter tunnel / x body / x hands / open hands / look / take item / x shoulder / x brand / ne / x brand" in the rocky ledge
 
 test walkthru with "test cave"
-
