@@ -357,25 +357,23 @@ The dark niche is a fixed in place container in Stone Steps. "A small niche has 
 
 Section - Sgt Duffy NPC
 
-[ Is it ok to add a character?  This is not fully fleshed out, but rather as a starting point so that others might add more interaction with the character, ask/tell etc.  Note that the character starts out off-stage.  I hope others will add to this. ]
+[ Is it ok to add a character? This is not fully fleshed out, but rather as a starting point so that others might add more interaction with the character, ask/tell etc. Note that the character starts out off-stage. I hope others will add to this. ]
 
-Sgt Duffy is a man.  Sgt Duffy has description "Sgt Duffy looks like a cop whose mission in life is to avoid trouble.  He's a couple of pounds over his uniform size and his skin glistens faintly from the humidity.  Or maybe he's just nervous."
-
-Understand "Duff/duf/dufy/diffy/duggy/sargent/seargent/sarge/sergeant/cop/police/policeman", "the seargent", "the sergeant", "Seargent Duffy", "Seargeant Duffy" or "police man" as Sgt Duffy.
-
-Instead of pushing Sgt Duffy:
-   say "Sgt Duffy easily blocks your move.  [one of]'What in blazes has gotten into you?'[or]'If you try that again, I'm gonna get angry.'[or]He glares at you coldly.[stopping]";
-   now Sgt Duffy is Angry.
-
-Instead of attacking Sgt Duffy, try pushing Sgt Duffy.
-
-Sgt Duffy is imaginary.
+Sgt Duffy is a man. Sgt Duffy has description "Sgt Duffy looks like a cop whose mission in life is to avoid trouble. He's a couple of pounds over his uniform size and his skin glistens faintly from the humidity. Or maybe he's just nervous." Sgt Duffy is imaginary.
 
 Greeting response for Sgt Duffy:
    say "'Hello, Sergeant', you say.[line break]'Oh, hello luv.'"
    
 response for Sgt Duffy when asked-or-told about Sgt Duffy:
    say "Sgt Duffy is not inclined to talk about himself.";
+
+Understand "Duff/duf/dufy/diffy/duggy/sargent/seargent/sarge/sergeant/cop/police/policeman", "the seargent", "the sergeant", "Seargent Duffy", "Seargeant Duffy" or "police man" as Sgt Duffy.
+
+Instead of pushing Sgt Duffy:
+say "Sgt Duffy easily blocks your move. [one of]'What in blazes has gotten into you?'[or]'If you try that again, I'm gonna get angry.'[or]He glares at you coldly.[stopping]";
+now Sgt Duffy is Angry.
+
+Instead of attacking Sgt Duffy, try pushing Sgt Duffy.
 
 Section - test - Not for release
 
