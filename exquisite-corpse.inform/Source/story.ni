@@ -332,9 +332,7 @@ Instead of going northeast from the Cave Entrance when the brand is not lit, say
 
 Section - Forgotten Cache
 
-Forgotten Cache is south of Lightless Shaft. "The tunnel swells into a tall, unhospitable-looking chamber. Here, foam-stone bracings and metal reinforcements have replaced the improvised look of the other tunnels. The floor is a perfectly smooth, dull grey. From here, you can go north back to the tunnel shaft."
-
-The Forgotten Cache is naturally dark.
+Forgotten Cache is south of Lightless Shaft. The Forgotten Cache is naturally dark. "The tunnel swells into a tall, unhospitable-looking chamber. Here, foam-stone bracings and metal reinforcements have replaced the improvised look of the other tunnels. The floor is a perfectly smooth, dull grey. From here, you can go north back to the tunnel shaft."
 
 Section - Stone steps
 
