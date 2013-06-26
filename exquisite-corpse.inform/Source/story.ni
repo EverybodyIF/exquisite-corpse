@@ -380,6 +380,20 @@ Report summoning Sgt Duffy:
 	
 Report dismissing Sgt Duffy:
 	say "'So long, luv', says Sgt Duffy, and promptly walks away." instead.
+	
+Section - Fire Sprite
+
+The Fire Sprite is a friendly imaginary woman. The description is "A diminutive woman made entirely from a living flame. Known to be extremely curious, mischievous, and often accidentally destructive, fire sprites are one of the four elemental sprites able to be summoned onto the primary plane. Yours is known for her particularly fiery temper."
+
+report summoning the Fire Sprite: 
+	say "[The noun] appears in a burst of flame. [one of]You feel the temperature in the room rise dramatically.[or]The heat from the sprite is so intense you fall back a pace[or]You feel your forehead to make sure your eyebrows are still intact.[or]A shower of sparks bounces off everything in the room.[then at random]" instead;
+	
+check summoning Fire Sprite when Fire Sprite is in the location of the player:
+         say "The Sprite gives you a look that would (and did) singe your eyebrows a little.";
+	stop the action;
+
+report dismissing the Fire Sprite: 
+   say "The sprite nods to you and then disappears in a puff of smoke." instead.
 
 Chapter - Testing - Not for release
 
@@ -396,6 +410,6 @@ test cave with "ne / x crack / i / put blade in crack / look / enter tunnel / x 
 
 test crates with "s / x crates"
 
-test summoning with "summon me / summon jack / summon child / summon duffy / summon the police / summon Mr Perfect / g / dismiss duffy / dismiss police / dismiss perfect".
+test summoning with "summon me / summon jack / summon child / summon duffy / summon lucas / summon the police / summon Mr Perfect / g / dismiss duffy / dismiss police / dismiss perfect / summon fire / again / dismiss fire".
 
 test walkthru with "test cave / test crates"
