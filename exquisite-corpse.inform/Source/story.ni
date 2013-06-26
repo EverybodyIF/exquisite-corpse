@@ -2,15 +2,15 @@
 
 Include Conversation Responses by Eric Eve.
 
-Section - physical contact
 
-To decide whether action implies physical contact: 
-   if the current action is listening to something, no;
-   if the current action is memscribing something, no;
-   if the current action is summoning something, no;
-   if the action requires a touchable noun, yes; 
-   if the action requires a touchable second noun, yes; 
-   no. 
+
+Section - scenes
+
+Overture is a scene. Overture begins when play begins.
+
+After waiting during Overture: say "[one of]You fidget as you wait[or]Time passes in silence[or]You glance uneasily about as the seconds creep by[or]You wait, restless[at random]."
+
+Chapter - new commands
 
 Section - listing exits and enterables 
 
@@ -38,74 +38,6 @@ carry out listing enterables: say enterable list.
 listing exits is an action applying to nothing.
 Understand "exits" as listing exits.
 carry out listing exits: say "[exit list][enterable list]";
-
-Section - notable locale objects 
-
-Rule for choosing notable locale objects (this is the tweaked locale priority rule): 
-	repeat with item running through things in location: 
-		if the item is fixed in place, set the locale priority of the item to 4;
-		else set the locale priority of the item to 5.
-
-Section - scenes
-
-Overture is a scene. Overture begins when play begins.
-
-After waiting during Overture: say "[one of]You fidget as you wait[or]Time passes in silence[or]You glance uneasily about as the seconds creep by[or]You wait, restless[at random]."
-
-Section - memscribing 
-
-Memscribing is an action applying to one thing. Understand "memscribe [something]" as memscribing.
-
-Definition: something is susceptible: if it is a person, yes.
-
-Instead of memscribing the child, say "Far too dangerous to consider with any infant, let alone your own blood." 
-Instead of memscribing yourself, say "Memscribing yourself? You wouldn't even know where to begin."
-Instead of memscribing something not susceptible, say "[The noun] can't be affected by memscription."
-
-Section - some loose ends
-
-A person can be neutral, friendly or angry. A person is usually neutral.
-
-Understand "jump off" as jumping.
-
-Instead of singing: say "When all this is over, you'll sing, sing like a bird that is no longer caged. But not yet."
-
-Section - the player 
-
-The player is female. 
-
-Instead of examining the player: say "You are twenty-four, obviously pregnant, and marked by a weird[if the brand is lit and the location is naturally dark], glowing[end if] brand on your left shoulder."
-
-Section - the child 
-
-The child is part of the player. Understand "girl/baby/daughter/foetus/fetus/kid" as the child. The description of the child is "It's a girl, according to the doctor who discussed the 20-week echo with you. When he heard that, Jack tried to force you to have an abortion. That will never happen.[paragraph break]You rub your belly and imagine a newborn cradled in your arms. She would be perfect, of course. Beautiful and intelligent."
-
-The child is a woman.
-
-Instead of summoning or dropping the child, say "Its time has not come yet."
-Instead of attacking the child: say "Never."
-Instead of dismissing the child: say "Never."
-
-Instead of pushing or pulling or taking when the noun is the child, try touching the child.
-
-After touching the child: say "You lay a hand on your belly[if a random chance of 1 in 6 succeeds].[paragraph break]A kick! You're sure you felt [one of]her[or]another[stopping] kick just now[end if]." Understand "belly/stomach/tummy" as the child while the child is part of the player.
-
-Section - shoulder and brand
-
-A shoulder is part of the player. The description is "On your right shoulder is an incomplete brand[if the brand is lit and the location is naturally dark], which blazes with a weird light[end if]."
-
-An incomplete brand is part of the player. The description is "Craning your neck, you look down to see the edges of the brand, bleeding but flawed, mercifully incomplete[if the brand is lit and the location is naturally dark]. You wouldn't see it well, except for the dull, flickering light that smolders deep within the wound[end if].".
-
-Understand "weird" as the brand.
-
-After looking when the brand is lit and the location is naturally dark:
-say "Your brand seems to be giving off an eerie sort of light."
-
-Section - the player's possessions
-
-The player carries a short blade. The description of the short blade is "It's one of the few things your momma ever gave you."
-Instead of eating the short blade: say "Only the men in Jack's gang were expected to practice sword swallowing."
-Understand "sword/weapon/knife" as the blade.
 
 Section - Summoning
 
@@ -157,7 +89,101 @@ carry out dismissing:
 
 report dismissing:
 	say "[The noun] nods a goodbye, walks off, and is gone.";
+
+section - prying it with
+
+prying it with is an action applying to one thing and one thing.
+
+understand "pry [something] open/-- with/using [something]" or "pry [something] with/using [something]" or "pry open [something] with/using [something]" as prying it with.
+
+understand "use [something] to pry/force open [something]" or "use [something] to pry/force [something] open" as prying it with (with nouns reversed).
+
+understand the command "force" as "pry".
+
+understand "pry [something]" or "pry open [something]" or "force [something]" or "force open [something]" as prying it with.
 	
+Rule for supplying a missing second noun while prying: 
+	say "(using your hands)";
+	now the second noun is the player.
+
+check prying something with something: 
+	say "That is not something you can force open.";
+	stop the action.
+
+Section - memscribing 
+
+Memscribing is an action applying to one thing. Understand "memscribe [something]" as memscribing.
+
+Definition: something is susceptible: if it is a person, yes.
+
+Instead of memscribing the child, say "Far too dangerous to consider with any infant, let alone your own blood." 
+Instead of memscribing yourself, say "Memscribing yourself? You wouldn't even know where to begin."
+Instead of memscribing something not susceptible, say "[The noun] can't be affected by memscription."
+
+Section - physical contact
+
+To decide whether action implies physical contact: 
+   if the current action is listening to something, no;
+   if the current action is memscribing something, no;
+   if the current action is summoning something, no;
+   if the action requires a touchable noun, yes; 
+   if the action requires a touchable second noun, yes; 
+   no. 
+
+Section - notable locale objects 
+
+Rule for choosing notable locale objects (this is the tweaked locale priority rule): 
+	repeat with item running through things in location: 
+		if the item is fixed in place, set the locale priority of the item to 4;
+		else set the locale priority of the item to 5.
+
+Section - some loose ends
+
+A person can be neutral, friendly or angry. A person is usually neutral.
+
+Understand "jump off" as jumping.
+
+Instead of singing: say "When all this is over, you'll sing, sing like a bird that is no longer caged. But not yet."
+
+Chapter - the player 
+
+The player is female. 
+
+Instead of examining the player: say "You are twenty-four, obviously pregnant, and marked by a weird[if the brand is lit and the location is naturally dark], glowing[end if] brand on your left shoulder."
+
+Section - the child 
+
+The child is part of the player. Understand "girl/baby/daughter/foetus/fetus/kid" as the child. The description of the child is "It's a girl, according to the doctor who discussed the 20-week echo with you. When he heard that, Jack tried to force you to have an abortion. That will never happen.[paragraph break]You rub your belly and imagine a newborn cradled in your arms. She would be perfect, of course. Beautiful and intelligent."
+
+The child is a woman.
+
+Instead of summoning or dropping the child, say "Its time has not come yet."
+Instead of attacking the child: say "Never."
+Instead of dismissing the child: say "Never."
+
+Instead of pushing or pulling or taking when the noun is the child, try touching the child.
+
+After touching the child: say "You lay a hand on your belly[if a random chance of 1 in 6 succeeds].[paragraph break]A kick! You're sure you felt [one of]her[or]another[stopping] kick just now[end if]." Understand "belly/stomach/tummy" as the child while the child is part of the player.
+
+Section - shoulder and brand
+
+A shoulder is part of the player. The description is "On your right shoulder is an incomplete brand[if the brand is lit and the location is naturally dark], which blazes with a weird light[end if]."
+
+An incomplete brand is part of the player. The description is "Craning your neck, you look down to see the edges of the brand, bleeding but flawed, mercifully incomplete[if the brand is lit and the location is naturally dark]. You wouldn't see it well, except for the dull, flickering light that smolders deep within the wound[end if].".
+
+Understand "weird" as the brand.
+
+After looking when the brand is lit and the location is naturally dark:
+say "Your brand seems to be giving off an eerie sort of light."
+
+Section - the player's possessions
+
+The player carries a short blade. The description of the short blade is "It's one of the few things your momma ever gave you."
+Instead of eating the short blade: say "Only the men in Jack's gang were expected to practice sword swallowing."
+Understand "sword/weapon/knife" as the blade.
+
+Chapter - story
+
 Section - backdrops 
 
 The beacon is a backdrop. The description is "Far to the west, sunset gilds the metal spine of the pharos." It is in the Perilous Perch and the Rocky Ledge. Understand "tower/pharos/lighthouse" or "great tower/pharos/lighthouse" as the beacon.
@@ -202,14 +228,18 @@ say "[one of]You've never liked those gulls, always whooping and cawing at a the
 Every turn while in Perilous Perch:
 	say "[one of]The wind screams in your ears for a moment, then dies down.[or]The sounds of shorebirds can be heard from the harbor.[or]You think you hear voices, but you hope you are mistaken.[or]The wind whistles ominously around the cliffs.[or]You hear the sound of a solitary gull.[or]You think you hear movement down toward the rocky ledge.[purely at random]"
 
-Instead of going down while in Perilous Perch:
-try going southwest.
-
+Instead of going down while in Perilous Perch: try going southwest.
 Instead of entering the passage: try going east.
 Instead of going inside in Perilous Perch: try going east.
 
 [to catch "open crack with sword"]
 Instead of unlocking the closed passage with something, try inserting the second noun into the noun.
+	
+instead of prying the passage with something: try inserting the second noun into the noun.
+
+instead of prying the passage with the player:
+	say "You'll only damage your hands. You'll need a tool of some sort.";
+	stop the action. 
 
 Section - hidden passage 
 
@@ -222,7 +252,7 @@ Instead of trying inserting something into a closed passage, say "The crack is t
 Instead of trying inserting the blade into a closed passage:
   say "With a shower of dirt you work your mother's blade into the crack. The crack's edges seem more yielding than rock should be, and the blade suddenly slips into open space. Could it be?[paragraph break]Within a couple of minutes you have cleared away the vines and dirt surrounding the crack to reveal a narrow dark passage to the east.";
    now the passage is open.
-Instead trying opening a closed passage: say "You press yourself against the crack, but it is far too small for you to enter."
+Instead of trying opening a closed passage: say "You press yourself against the crack, but it is far too small for you to enter."
 
 This is the silenced can't go through undescribed doors rule:
 	if the door gone through is the passage and the passage is closed:
@@ -251,7 +281,7 @@ Understand "rubble/chunks/granite" or "chunks of granite" as the fallen masonry.
 
 Some vines are scenery in the Cave Entrance.
 
-Instead of cutting the vines, say "There is already a narrow opening through the vines. It would not be wise to make the passage more obvious."
+Instead of cutting or taking the vines: say "There is already a narrow opening through the vines. It would not be wise to make the passage more obvious."
 
 The wagon wheel is scenery in Cave Entrance. The description of the wagon wheel is "The wood is dark with rot." Understand "wood" as the wagon wheel.
 
