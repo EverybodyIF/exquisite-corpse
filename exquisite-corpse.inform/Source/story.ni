@@ -151,6 +151,8 @@ The player is female.
 
 Instead of examining the player: say "You are twenty-four, obviously pregnant, and marked by a weird[if the brand is lit and the location is naturally dark], glowing[end if] brand on your left shoulder."
 
+Ears are part of the player. The description is "You can't see them, but they're slightly chapped from the brisk cliffside winds and filled with the roar of your own desperate, pounding pulse."
+
 Section - the child 
 
 The child is part of the player. Understand "girl/baby/daughter/foetus/fetus/kid" as the child. The description of the child is "It's a girl, according to the doctor who discussed the 20-week echo with you. When he heard that, Jack tried to force you to have an abortion. That will never happen.[paragraph break]You rub your belly and imagine a newborn cradled in your arms. She would be perfect, of course. Beautiful and intelligent."
@@ -184,7 +186,7 @@ Understand "sword/weapon/knife" as the blade.
 
 Chapter - story
 
-Section - backdrops 
+Section - Backdrops and regions
 
 The beacon is a backdrop. The description is "Far to the west, sunset gilds the metal spine of the pharos." It is in the Perilous Perch and the Rocky Ledge. Understand "tower/pharos/lighthouse" or "great tower/pharos/lighthouse" as the beacon.
 Instead of doing anything other than examining with the beacon, say "The beacon is miles distant, and you don't think it can see you. Not yet."
@@ -199,13 +201,22 @@ Instead of listening to the wind: say "The wind wails painfully over a deep mino
 
 Instead of listening to a room when the wind is in the location: try listening to the wind.
 
+Instead of smelling the wind: try examining the wind.
+Instead of tasting the wind: try examining the wind.
+Instead of touching the wind: try examining the wind.
+
+Sky-Visible is a region. Rocky Ledge, Perilous Perch, and Cave Entrance are in Sky-Visible.
+
 Section - Rocky Ledge
 
 Rocky Ledge is a room. "Wind whips about your ears here on this rocky ledge. The ledge winds upwards to the northeast and down to the southwest. You feel you shouldn't tarry too long here.".
 
 The player is in Rocky Ledge.
 
-Instead of jumping in Rocky Ledge or jumping in Perilous Perch, say "While death [italic type]may[roman type] be preferable to what Jack and his gang will do to you if they catch you, you have not yet lost all hope of escape."
+Instead of jumping while in Rocky Ledge or jumping while in Perilous Perch, say "While death [italic type]may[roman type] be preferable to what Jack and his gang will do to you if they catch you, you have not yet lost all hope of escape."
+
+Understand "leap" as jumping. 
+Understand "commit suicide" as jumping while in Rocky Ledge or in Perilous Perch.
 
 Instead of going up while in Rocky Ledge:
 	try going northeast.
@@ -214,6 +225,9 @@ Instead of going southwest in Rocky Ledge, say "Back to Jack and his gang? No."
 
 Instead of going down while in Rocky Ledge:
 	try going southwest.
+	
+Instead of waiting while in Rocky Ledge, say "One, two, three heartbeats, and your breath is caught. Now it's time to move along before you are, also."
+Instead of doing it for the second time: say "There will be time for contemplation after, hopefully, but for the time being you need to keep moving."; move the player to Perilous Perch.
 
 Section - Perilous Perch
 
