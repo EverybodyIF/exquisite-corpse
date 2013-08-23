@@ -1,14 +1,49 @@
 "Exquisite Corpse (Working Title)" by Various Authors
 
+Book - Book of Code
+
+[In which we find bibliographical info, some new player commands, definitions and things like that.]
+
+Chapter - Meta Information
+
 Include Conversation Responses by Eric Eve.
 
+Table of authors
+username	real name
+"Biep"	--
+"ChrisC"	--
+"Danii"	--
+"Eleas"	--
+"emshort"	"Emily Short"
+"Felix Larsson"	--
+"Gorobay"	--
+"Horatio_S"	--
+"Joey"	"Joey Jones"
+"maga"	--
+"matt w"	--
+"MTW"	"Marshal Winter"
+"Neil"	--
+"peterorme"	"Peter Orme"
+"VictorGijsbers"	"Victor Gijsbers"
+"ZUrlocker"	--
 
+listing credits is an action applying to nothing. Understand "credits" as listing credits. 
 
-Section - scenes
+[if somebody wants to make a distinct 'about' command, please do]
+Understand "about" as listing credits.
 
-Overture is a scene. Overture begins when play begins.
-
-After waiting during Overture: say "[one of]You fidget as you wait[or]Time passes in silence[or]You glance uneasily about as the seconds creep by[or]You wait, restless[at random]."
+to decide which List of texts is the List of Authors:
+	let L be a list of texts;
+	repeat through the Table of Authors:
+		if there is a real name entry:
+			add real name entry to L;
+		otherwise:
+			add username entry to L;
+	sort L;
+	decide on L;
+	
+carry out listing credits:
+	say "This story was written collaboratively by anybody who wanted to join in. The project started on the intfiction.org forums. The list of participants is as follows: [List of Authors].";
 
 Chapter - new commands
 
@@ -144,6 +179,16 @@ A person can be neutral, friendly or angry. A person is usually neutral.
 Understand "jump off" as jumping.
 
 Instead of singing: say "When all this is over, you'll sing, sing like a bird that is no longer caged. But not yet."
+
+Book - The Story
+
+[In which we find things that deal directly with the story: places, people, things]
+
+Section - scenes
+
+Overture is a scene. Overture begins when play begins.
+
+After waiting during Overture: say "[one of]You fidget as you wait[or]Time passes in silence[or]You glance uneasily about as the seconds creep by[or]You wait, restless[at random]."
 
 Chapter - the player 
 
@@ -439,7 +484,11 @@ check summoning Fire Sprite when Fire Sprite is in the location of the player:
 report dismissing the Fire Sprite: 
    say "The sprite nods to you and then disappears in a puff of smoke." instead.
 
-Chapter - Testing - Not for release
+Book - Book of Testing - Not for release
+
+[ In which we find things that are useful while we're writing and testing the story, but which are not part of a finished game. ]
+
+Chapter - Things for test 
 
 Section 1 - People just for testing
 
