@@ -178,6 +178,8 @@ A person can be neutral, friendly or angry. A person is usually neutral.
 
 Understand "jump off" as jumping.
 
+singing is an action applying to nothing. Understand "sing" as singing.
+
 Instead of singing: say "When all this is over, you'll sing, sing like a bird that is no longer caged. But not yet."
 
 Book - The Story
@@ -258,20 +260,22 @@ Rocky Ledge is a room. "Wind whips about your ears here on this rocky ledge. The
 
 The player is in Rocky Ledge.
 
-Instead of jumping while in Rocky Ledge or jumping while in Perilous Perch, say "While death [italic type]may[roman type] be preferable to what Jack and his gang will do to you if they catch you, you have not yet lost all hope of escape."
+Instead of jumping in Rocky Ledge or jumping in Perilous Perch, say "While death [italic type]may[roman type] be preferable to what Jack and his gang will do to you if they catch you, you have not yet lost all hope of escape."
 
 Understand "leap" as jumping. 
-Understand "commit suicide" as jumping while in Rocky Ledge or in Perilous Perch.
 
-Instead of going up while in Rocky Ledge:
+Understand "commit suicide" as jumping while the player is in Rocky Ledge.
+Understand "commit suicide" as jumping while the player is in Perilous Perch.
+
+Instead of going up in Rocky Ledge:
 	try going northeast.
 
 Instead of going southwest in Rocky Ledge, say "Back to Jack and his gang? No."
 
-Instead of going down while in Rocky Ledge:
+Instead of going down in Rocky Ledge:
 	try going southwest.
 	
-Instead of waiting while in Rocky Ledge, say "One, two, three heartbeats, and your breath is caught. Now it's time to move along before you are, also."
+Instead of waiting in Rocky Ledge, say "One, two, three heartbeats, and your breath is caught. Now it's time to move along before you are, also."
 Instead of doing it for the second time: say "There will be time for contemplation after, hopefully, but for the time being you need to keep moving."; move the player to Perilous Perch.
 
 Section - Perilous Perch
@@ -284,10 +288,10 @@ say "You can't see the birds at the moment, but you can hear their piercing crie
 Before listening to the shorebirds:
 say "[one of]You've never liked those gulls, always whooping and cawing at a their own jokes[or]You recoil from the sound of the shorebirds enjoying their freedom[stopping]." instead.
 
-Every turn while in Perilous Perch:
+Every turn while the player in Perilous Perch:
 	say "[one of]The wind screams in your ears for a moment, then dies down.[or]The sounds of shorebirds can be heard from the harbor.[or]You think you hear voices, but you hope you are mistaken.[or]The wind whistles ominously around the cliffs.[or]You hear the sound of a solitary gull.[or]You think you hear movement down toward the rocky ledge.[purely at random]"
 
-Instead of going down while in Perilous Perch: try going southwest.
+Instead of going down in Perilous Perch: try going southwest.
 Instead of entering the passage: try going east.
 Instead of going inside in Perilous Perch: try going east.
 
@@ -413,7 +417,7 @@ Understand "writing" as the graffiti.
 
 Instead of going southwest from the Lightless Shaft when the brand is not lit, say "You made it this far with its inanimate assistance, so why not continue your travels for a while with the Obsidian Cat in your retinue?".
 
-Every turn while in Lightless Shaft: say "[one of]The sound of dripping water echoes around you.[or]You think you hear voices from the southwest.[or]It is eerily quiet for a moment.[purely at random]".
+Every turn while the player is in Lightless Shaft: say "[one of]The sound of dripping water echoes around you.[or]You think you hear voices from the southwest.[or]It is eerily quiet for a moment.[purely at random]".
 
 Section - Forgotten Cache
 

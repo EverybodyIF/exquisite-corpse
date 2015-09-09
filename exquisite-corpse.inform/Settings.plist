@@ -7,7 +7,7 @@
 		<key>IFSettingNaturalInform</key>
 		<true/>
 	</dict>
-	<key>IFInform6Extensions</key>
+	<key>IFI7OutputSettings</key>
 	<dict/>
 	<key>IFLibrarySettings</key>
 	<dict>
@@ -16,8 +16,6 @@
 	</dict>
 	<key>IFMiscSettings</key>
 	<dict>
-		<key>IFSettingElasticTabs</key>
-		<true/>
 		<key>IFSettingInfix</key>
 		<false/>
 	</dict>
